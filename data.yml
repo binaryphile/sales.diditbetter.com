@@ -1,16 +1,11 @@
-title : Blog Title
-tagline: Blog Tagline
+title : DidItBetter.com Sales
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : DidItBetter.com Software
+  email : info@diditbetter.com
 
 navigation :
-  - archive.html
-  - tags.html
-  - categories.html
-  - pages.html
-  - about.md
-  
+  - index.md
+  - how_it_works.md
+  - referral_signup.md
+  - collateral.md
+  - support.md
