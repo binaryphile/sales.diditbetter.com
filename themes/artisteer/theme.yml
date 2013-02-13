@@ -1,23 +1,26 @@
 {
   "stylesheets" : {
     "default" : [
-      "bootstrap.min.css",
-      "style.css"
+      "style.css",
+      style.responsive.css,
     ],
    
     "widgets" : {
-      "google_prettify" : "twitter-bootstrap.css"
+      "google_prettify" : "sunburst-custom.css"
     }
     
   },
 
   "javascripts" : {
     "default" : [
+      jquery.js,
+      script.responsive.js,
+      script.js,
     ]
   },
   
   "manifest" : {
-    "author" : "Jacob Thornton and Mark Otto",
-    "website" : "http://twitter.github.com/bootstrap"
+    "author" : "DidItBetter.com Software",
+    "website": "http://www.diditbetter.com/"
   }
 }
