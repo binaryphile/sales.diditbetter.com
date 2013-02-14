@@ -269,11 +269,10 @@ team. In the rare instance where there is a chargeback, the Referral
 commission for that sale will be charged against other Referral
 purchases and the net amount will be given to the Referral Agent.
 
-<span class="signup">[Sign up now!](signup.html){:
-.art-button}</span><span class="how-it-works">[Go to store][4]{:
-.art-button}</span>
-
-
+[Sign up now!](signup.html){: .art-button-old}
+{: .signup style="float: left;"}
+[Go to store][4]{: .art-button-old}
+{: .how-it-works style="float: left;"}
 
 [1]: http://www.diditbetter.com/ 
 [2]: http://store.diditbetter.com/ 

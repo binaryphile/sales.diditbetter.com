@@ -91,10 +91,10 @@ these benefits:
   desire in your customer base. Our materials are brandable and
   personalizable.
 
-[Learn More](how-it-works.html){: .art-button}
+[Learn More](how-it-works.html){: .art-button-old}
 {: .how-it-works style="float: left;"}
 
-[Sign up now!](referral-signup.html){: .art-button}
+[Sign up now!](referral-signup.html){: .art-button-old}
 {: .signup style="float: left;"}
 
 Sign up today and get started earning!
@@ -130,7 +130,5 @@ PartnerPrograms @ diditbetter.com or [download the reseller kit.][1]
 
 *Are any of your customers ready to benefit from hosted solutions? Ask
 us about Hosted Solutions Authorized Reseller Program.*
-
-
 
 [1]: http://sales.diditbetter.com/DidItBetterAuthorizedResellerProgram.pdf 
