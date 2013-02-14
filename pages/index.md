@@ -1,8 +1,8 @@
 ---
 title: Home
-description: DidItBetter.com Sales and Marketing site
-layout: page
+description: The DidItBetter.com Sales and Marketing site
 ---
+
 ### Find a DidItBetter Software Authorized Reseller   {#find-a-diditbetter-software-authorized-reseller}
 
 Our DidItBetter Software authorized resellers can assist you with your

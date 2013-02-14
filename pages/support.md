@@ -1,3 +1,8 @@
+---
+title: Support
+description: Support options for the DidItBetter.com Sofware Affiliate and Referral programs
+---
+
 Please review all documentation including the guides (installation,
 administration, user), online knowledgebase, technical bulletins listed
 on our website prior to contacting Support. If you cannot find the

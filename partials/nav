@@ -4,6 +4,8 @@
       {{# data.navigation?to_pages }}
         {{> pages_list }}
       {{/ data.navigation?to_pages }}
+      <li><a href="http://www.diditbetter.com/">Main site</a></li>
+      <li><a href="http://store.diditbetter.com/">Store</a></li>
     </ul>
   </div>
 </nav>

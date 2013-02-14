@@ -1,3 +1,8 @@
+---
+title: How It Works
+description: A description of the workings of the DidItBetter.com Software Referral program
+---
+
 **DidItBetter Software solutions complement and add functionality to
 your Microsoft Exchange, Microsoft Outlook, Microsoft Office and mobile
 devices!**

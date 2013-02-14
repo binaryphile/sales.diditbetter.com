@@ -1,3 +1,8 @@
+---
+title: Referral Signup
+description: The Signup process for the DidItBetter.com Software Referral Program starts here
+---
+
 ### Referral Partner Program Signup
 
 <div id="wizard" class="swMain" markdown="1">
