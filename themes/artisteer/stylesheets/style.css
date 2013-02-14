@@ -621,7 +621,7 @@ ul.art-hmenu>li:before
    left:  -1px;
    width:1px;
    height: 29px;
-   background: url('images/menuseparator.png') center center no-repeat;
+   background: url('../media/menuseparator.png') center center no-repeat;
 }
 ul.art-hmenu>li:first-child:before{
    display:none;
@@ -746,7 +746,7 @@ ul.art-hmenu ul
    z-index: 10;
    left: 0;
    top: 0;
-   background-image: url('images/spacer.gif');
+   background-image: url('../media/spacer.gif');
 }
 
 .desktop-nav ul.art-hmenu>li>ul
@@ -1195,7 +1195,7 @@ div.art-block img
 
 .art-blockheader .t:before
 {
-   background: url('images/blockheadericon.png') no-repeat center;
+   background: url('../media/blockheadericon.png') no-repeat center;
    content:'.';
    text-indent:13px;
    overflow: hidden;
@@ -1345,7 +1345,7 @@ pre
 
 .art-postheadericon:before
 {
-   content:url('images/postheadericon.png');
+   content:url('../media/postheadericon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -1449,7 +1449,7 @@ pre
 
 .art-postpdficon:before
 {
-   content:url('images/postpdficon.png');
+   content:url('../media/postpdficon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -1466,7 +1466,7 @@ pre
 
 .art-postprinticon:before
 {
-   content:url('images/postprinticon.png');
+   content:url('../media/postprinticon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -1483,7 +1483,7 @@ pre
 
 .art-postemailicon:before
 {
-   content:url('images/postemailicon.png');
+   content:url('../media/postemailicon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -1500,7 +1500,7 @@ pre
 
 .art-postcontent ul>li:before,  .art-post ul>li:before,  .art-textblock ul>li:before
 {
-   content:url('images/postbullets.png');
+   content:url('../media/postbullets.png');
    margin-right:6px;
    bottom: 2px;
    position:relative;
@@ -1569,7 +1569,7 @@ pre
 
 blockquote
 {
-   background: #D4E0E8 url('images/postquote.png') no-repeat scroll;
+   background: #D4E0E8 url('../media/postquote.png') no-repeat scroll;
    border:1px solid #AFC6D4;
    padding:6px 6px 6px 43px;
    margin:10px 10px 10px 50px;
@@ -1764,7 +1764,7 @@ img.art-lightbox-image.active
 .loading
 {
    position: fixed;
-   background: #fff url('images/preloader-01.gif') center center no-repeat;
+   background: #fff url('../media/preloader-01.gif') center center no-repeat;
    width: 32px;
    height: 32px;
    z-index: 10100;
@@ -1945,11 +1945,11 @@ img.art-lightbox-image.active
 }
 
 .signup>span.art-button-wrapper>span.art-button-l, .signup>span.art-button-wrapper>span.art-button-r {
-  background-image: url('images/signup_bg_button.png')
+  background-image: url('../media/signup_bg_button.png')
 }
 
 .how-it-works>span.art-button-wrapper>span.art-button-l, .how-it-works>span.art-button-wrapper>span.art-button-r {
-  background-image: url('images/how_it_works_button.png')
+  background-image: url('../media/how_it_works_button.png')
 }
 .signup>span.art-button-wrapper>span.art-button-l,
 .how-it-works>span.art-button-wrapper>span.art-button-l {
@@ -1989,7 +1989,7 @@ img.art-lightbox-image.active
 
 .big>span.art-button-wrapper>span.art-button-l, .big>span.art-button-wrapper>span.art-button-r
 {
-   background-image: url('images/big_button.png');
+   background-image: url('../media/big_button.png');
 }
 
 .big>span.art-button-wrapper>a.art-button,

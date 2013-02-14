@@ -81,7 +81,7 @@ the working with you!**
 
 ## Getting Started   {#getting-started}
 
-![New Account](new_account.png){: width="175" height="115" style="float:
+![New Account]({{urls.media}}/new_account.png){: width="175" height="115" style="float:
 right;"}
 
 The first thing you will need is to create an account on our
@@ -118,7 +118,7 @@ on the site until your account has been enabled and the following
 screens will help you familiarize yourself with the new functionality
 you will see on the store.diditbetter.com site.
 
-![](download_button-2.png){: width="152" height="140" style="float:
+![]({{urls.media}}/download_button-2.png){: width="152" height="140" style="float:
 right;"}
 
 ## Product and Cart Referrals   {#product-and-cart-referrals}
@@ -138,7 +138,7 @@ descriptions on our main site at:
 Each product has a purchase button which will take you to the
 appropriate page or category on the store.
 
-![Product Referral](product_referral.png){: width="206" height="149"
+![Product Referral]({{urls.media}}/product_referral.png){: width="206" height="149"
 style="float: right;"}
 
 When you get to the product page you will see the *Send Referral*
@@ -162,7 +162,7 @@ activate.
 Remember to empty the *To* field of its default \"Friend\" contents in
 either case and replace it with your customer\'s email address.
 
-![Email](email.png){: width="606" height="272"}
+![Email]({{urls.media}}/email.png){: width="606" height="272"}
 {: style="text-align: center;"}
 
 Included in the email body is the link to the product page. The link
@@ -199,7 +199,7 @@ buy by adding or removing things from the cart.
 
 Here are the instructions.
 
-![Cart Referral](cart_referral.png){: width="349" height="207"
+![Cart Referral]({{urls.media}}/cart_referral.png){: width="349" height="207"
 style="float: right;"}
 
 First, use your login to the site if you haven\'t already.
@@ -233,7 +233,7 @@ a new link and tell the customer to discard the old one.
 
 ## Viewing Your Completed Referrals   {#viewing-your-completed-referrals}
 
-![Your account](your_account.png){: width="289" height="67"
+![Your account]({{urls.media}}/your_account.png){: width="289" height="67"
 style="float: right;"}
 
 When a customer completes an order which lists you as a Referral Agent,
