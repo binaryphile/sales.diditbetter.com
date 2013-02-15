@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
-{{> head }}
-<body>
+{{> head}}
+<body {{# page.wide}}class="wide"{{/ page.wide}}>
 <div id="art-main">
   <div id="art-hmenu-bg" class="art-bar art-nav clearfix"></div>
   <div class="art-sheet clearfix">
-    {{> nav }}
+    {{> nav}}
     <div class="art-layout-wrapper clearfix">
       <div class="art-content-layout">
         <div class="art-content-layout-row">
@@ -16,7 +16,7 @@
       </div>
     </div>
   </div>
-  {{> footer }}
+  {{> footer.html}}
 </div>
 </body>
 </html>

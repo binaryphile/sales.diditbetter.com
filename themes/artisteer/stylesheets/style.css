@@ -2116,6 +2116,7 @@ span.art-button-wrapper input
    height: 120px;
    display: table-cell;
    padding: 0 40px 0 20px !important;
+  width: 265px;
 }
 
 .big .art-button-old img, .big>span.art-button-wrapper img
@@ -2386,7 +2387,7 @@ span.art-button-wrapper input
   border: 1px solid #FFD700; 
   font: bold 13px Verdana, Arial, Helvetica, sans-serif; 
   color:#5A5655;       
-  background: #FFF url(images/loader.gif) no-repeat 5px;  
+  background: #FFF url(../media/preloader-01.gif) no-repeat 5px;  
   -moz-border-radius  : 5px;
   -webkit-border-radius: 5px;
   z-index:998;
@@ -2430,4 +2431,35 @@ span.art-button-wrapper input
 }
 .art-blockheader .t, .art-vmenublockheader .t {white-space: nowrap;}
 
+/* Add wide layout template */
+
+body.wide {
+  min-width: 1000px;
+}
+
+body.wide .art-sheet {
+  width: 1000px;
+}
+
+body.wide .art-foot-inner {
+  width: 1000px;
+}
+
+/* Make centered table */
+table.center {
+  width: 100%;
+}
+
+table.center td {
+  vertical-align: middle;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Make a notice style like h5 */
+
+.notice {
+  color: #F60;
+  font-weight: bold;
+}
 /* End Additional CSS Styles */

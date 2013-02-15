@@ -1,6 +1,6 @@
 ---
 title: How It Works
-description: A description of the workings of the DidItBetter.com Software Referral program
+description: A description of the workings of the DidItBetter.com Referral program
 ---
 
 **DidItBetter Software solutions complement and add functionality to
@@ -126,14 +126,13 @@ you will see on the store.diditbetter.com site.
 ![]({{urls.media}}/download_button-2.png){: width="152" height="140" style="float:
 right;"}
 
-## Product and Cart Referrals   {#product-and-cart-referrals}
+## Referrals   {#product-and-cart-referrals}
 
-Once you\'re set up, the easiest way to send a referral to a lead is to
-visit a particular product page. Your prospects are your prospects and
-we will not try to contact them directly. The only way we would contact
-them is if they call in to our company to ask questions. If they do call
-in, we will ask if they are working with one of our referral partners to
-include you in the conversation.
+Your prospects are your prospects and we will not try to contact them
+directly. The only way we would contact them is if they call in to our
+company to ask questions. If they do call in, we will ask if they are
+working with one of our referral partners to include you in the
+conversation.
 
 The easiest way to find a product page is through the product
 descriptions on our main site at:
@@ -143,15 +142,19 @@ descriptions on our main site at:
 Each product has a purchase button which will take you to the
 appropriate page or category on the store.
 
-![Product Referral]({{urls.media}}/product_referral.png){: width="206" height="149"
+When you know what product and options you want the customer purchase,
+click the <span style="font-style: italic;">Add To Cart</span> button.
+ Once you have all of the products you want in the cart, click the <span
+style="font-style: italic;">Cart</span> link to view the cart
+contents.![Cart Referral]({{urls.media}}/cart_referral.png){: width="349" height="207"
 style="float: right;"}
 
-When you get to the product page you will see the *Send Referral*
-button. To send the product to a lead, click the button. Your email
-client will open to compose the email. The message subject and body will
-be filled out with some basic information. You can craft the message
-however you like, adding the recipient in the *To* field as well. When
-you\'re ready, go ahead and send it.
+In the cart, review your contents and make any final changes.  At the
+bottom is the *Send Referral* button. To send the cart to a lead, click
+the button. Your email client will open to compose the email. The
+message subject and body will be filled out with some basic information.
+You can craft the message however you like, adding the recipient in the
+*To* field as well. When you\'re ready, go ahead and send it.
 
 You can send the same message to one or many recipients. If you do not
 want multiple recipients to see each other\'s contact information, just
@@ -170,9 +173,9 @@ either case and replace it with your customer\'s email address.
 ![Email]({{urls.media}}/email.png){: width="606" height="272"}
 {: style="text-align: center;"}
 
-Included in the email body is the link to the product page. The link
-carries your email encoded within it so your account is associated with
-any order which results from ordering using this link.
+Included in the email body is the link to the contents of the cart. The
+link carries your email encoded within it so your account is associated
+with any order which results from ordering using this link.
 
 When the lead visits the link from their computer, your Referral email
 address will be attached to any order they make. Even if they end up
@@ -191,50 +194,6 @@ not select a different referral partner.
 
 It is helpful to keep track of your referrals who purchase and to verify
 our site shows the same purchases.
-
-Next, we will cover how to verify a customer has completed their order
-when we discuss viewing your referrals.
-
-## Sending Cart Referrals   {#sending-cart-referrals}
-
-As well as just sending a referral to a product page, such as the Value
-Bundle, you can also preassemble a cart of products to satisfy a
-customer\'s needs to make it easier for them to pick and choose what to
-buy by adding or removing things from the cart.
-
-Here are the instructions.
-
-![Cart Referral]({{urls.media}}/cart_referral.png){: width="349" height="207"
-style="float: right;"}
-
-First, use your login to the site if you haven\'t already.
-
-Then click the cart link in the upper right-hand corner of the page.
-
-Empty your cart of any products you don\'t want to send to the lead.
-Then, shop the site as usual, picking the products and options they will
-want.
-
-Finally, click the cart button once more to view the cart. Click *Send
-Referral*.
-
-Just as sending a Referral link to a product, your email client will
-open up with a default subject line and a link in the email body. This
-link looks different than just a product because there are more products
-in the link, but this link operates in the same fashion.
-
-When the customer completes the order that was sent in the link, you
-will be credited as the Referral Agent for that sale.
-
-When the customer clicks the link, any existing contents in their cart
-will be cleared (if they\'ve visited the store before) and the contents
-of your cart will be there instead. The customer is free to modify the
-contents of the cart as they desire, and you will still be credited on
-the sale since they clicked your link.
-
-The customer will always receive the cart as it was when you sent it. If
-you need to revise the cart for any reason, you need to do so then send
-a new link and tell the customer to discard the old one.
 
 ## Viewing Your Completed Referrals   {#viewing-your-completed-referrals}
 
@@ -262,14 +221,9 @@ resale. This section should not be confused with your referrals.
 ## Payment for your Completed Referrals   {#payment-for-your-completed-referrals}
 
 Once a month we will tally your completed Referral Orders and send you a
-check. Note that we have a very strict licensing policy which means
-there are no refunds once an order has been placed or after the keys
-have been issued or Premier Remote Support has been rendered by our
-team. In the rare instance where there is a chargeback, the Referral
-commission for that sale will be charged against other Referral
-purchases and the net amount will be given to the Referral Agent.
+check. 
 
-[Sign up now!](signup.html){: .art-button-old}
+[Sign up now!](referral-signup.html){: .art-button-old}
 {: .signup style="float: left;"}
 [Go to store][4]{: .art-button-old}
 {: .how-it-works style="float: left;"}

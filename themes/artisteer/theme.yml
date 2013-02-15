@@ -23,5 +23,9 @@
   "manifest" : {
     "author" : "DidItBetter.com Software",
     "website": "http://www.diditbetter.com/"
-  }
+  },
+
+  exclude: [
+    artisteer/,
+  ]
 }
