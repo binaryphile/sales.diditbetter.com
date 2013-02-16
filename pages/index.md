@@ -91,10 +91,10 @@ these benefits:
   desire in your customer base. Our materials are brandable and
   personalizable.
 
-[Learn More](how-it-works.html){: .art-button-old}
+[Learn More](how_it_works){: .art-button-old}
 {: .how-it-works style="float: left;"}
 
-[Sign up now!](referral-signup.html){: .art-button-old}
+[Sign up now!](referral_signup){: .art-button-old}
 {: .signup style="float: left;"}
 
 Sign up today and get started earning!

@@ -223,7 +223,7 @@ resale. This section should not be confused with your referrals.
 Once a month we will tally your completed Referral Orders and send you a
 check. 
 
-[Sign up now!](referral-signup.html){: .art-button-old}
+[Sign up now!](referral_signup){: .art-button-old}
 {: .signup style="float: left;"}
 [Go to store][4]{: .art-button-old}
 {: .how-it-works style="float: left;"}
