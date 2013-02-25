@@ -20,8 +20,8 @@ Please visit the account creation page on our store and make your
 account first.
 
 <span style="font-weight: bold; color: #FF6600;">This will open a new
-window. ÿWhen finished, close the window to return here and continue
-with theÿ</span><span style="font-style: italic;"><span
+window. When finished, close the window to return here and continue
+with the</span><span style="font-style: italic;"><span
 style="font-weight: bold; color: #FF6600;">Next</span></span><span
 style="font-weight: bold; color: #FF6600;">ÿbutton.</span>
 
@@ -55,7 +55,7 @@ Please download the Partner Profile document, fill it out and send it to
 us either by fax (813-972-7986) or by scanning into a PDF and emailing
 it to us at PartnerPrograms@diditbetter.com.
 
-Afterward downloading, clickÿ<span style="font-style:
+Afterward downloading, click<span style="font-style:
 italic;">Next</span>.
 
 [Download Profile](profile.pdf){: target="_blank" .art-button}
