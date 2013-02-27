@@ -1,4 +1,8 @@
-<div><textarea rows="26" style="width: 100%;" readonly="readonly">
+## Complete Referral Agent Agreement   {#complete-referral-agent-agreement}
+{: .StepTitle}
+
+<p>
+<textarea rows="26" readonly="readonly">
 DidItBetter Software™ Authorized Affiliate Referral Agent Agreement
 
 THIS AGREEMENT (the "Agreement') is made by and between Advantage International, Inc. (DBA: DidItBetter Software, hereinafter "DIDITBETTER SOFTWARE") and                                         (hereinafter "Authorized Affiliate Referral Agent").
@@ -133,4 +137,11 @@ To become an authorized Affiliate Referral Agent, Authorized Affiliate Referral 
 - 5% CASH BACK on any DidItBetter Software Cart which has processed
 
 ** The Authorized Affiliate Referral Partner program, product and service pricing are subject to change.  If the pricing changes, and a cart was sent, the new pricing will automatically be displayed to the user following the referral link.  If a cart was sent with prior pricing, and pricing was changed within 30 days, we will honor the discounted price to your clients.
-</textarea></div>
+</textarea>
+</p>
+
+<label><input id="agree" value="" type="checkbox" />I agree</label>
+{: style="float: right;"}
+
+[Download Agreement](/raa.pdf){: target="_blank" .art-button}
+

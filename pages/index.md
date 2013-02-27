@@ -1,42 +1,32 @@
 ---
 title: Home
 description: The DidItBetter.com Sales and Marketing site
+scripts:
+  remote:
+    - //ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js
 ---
 
-### Find a DidItBetter Software Authorized Reseller   {#find-a-diditbetter-software-authorized-reseller}
-
-Our DidItBetter Software authorized resellers can assist you with your
-license purchase as well as installing and configuring our solutions on
-your network. Our resellers can provide training and support on our
-solutions and Microsoft products (Exchange Server, Office). If you are
-an end user ready to implement any of our DidItBetter Software
-solutions, please email **PartnerPrograms @ diditbetter.com** to find an
-authorized DidItBetter Software reseller in your area.
-
-> \"Thank you so much for taking such good care of us!\"
-> 
-> – Donna C, DidItBetter Software Authorized Bronze Reseller, Denver,
-> Colorado
-
-### Join our Referral Partner or Authorized Resellers Team   {#join-our-referral-partner-or-authorized-resellers-team}
+### Join our Affiliate Referral Agent or Authorized Reseller Programs
 
 Should you be a reseller or a referral agent? That depends on whether
 you want to manage your client relationship directly or whether you want
 to refer leads to us and move on to the next customer.
 
 If you are an IT consultant with a long-running relationship with your
-customers, check out our authorized reseller program.
+customers, check out our [Authorized Reseller Program].
 
 If you are a sales-oriented businessperson who excels at finding new
-revenue opportunities, check out our referral partner program.
+revenue opportunities, check out our Affiliate Referral Agent Program
+described here:
 
-### DidItBetter.com Referral Partner Program   {#referral-program}
+
+### DidItBetter.com Affiliate Referral Agent Program
 
 Do you recommend our products to your customer base? Would you like to
 be compensated when your referrals to our products result in sales? Then
-our referral partner program is for you.
+our Affiliate Referral Agent Program is for you.
 
-As a DidItBetter Certified Referral Partner, you\'re eligible for all of
+As a DidItBetter.com Affiliate Referral Agent, you're eligible for all of
 these benefits:
 
 * **Named account manager** - Every partner has an inside advocate you
@@ -46,7 +36,7 @@ these benefits:
 * **Revenue generation** - Our partners generate revenue for each
   customer to whom they send cart links which result in completed
   purchases. We directly support all systems we sell with our software
-  assurance program, so you don\'t have to. Or if you have a direct
+  assurance program, so you don't have to. Or if you have a direct
   customer support relationship and want to handle that aspect of it
   yourself, no problem, we work that way as well.
 * **5% margins** - For each order you refer, you get 5% of the entire
@@ -61,15 +51,15 @@ these benefits:
   learning. Each session is dedicated to you and your company so you can
   ask whatever questions you need, whether you are twenty salespeople on
   your team or one.
-* **Included technical support** - You\'ll receive customer support from
+* **Included technical support** - You'll receive customer support from
   certified DidItBetter support engineers, top-notch technical engineers
-  with intimate knowledge of Exchange and our products. You\'ll always
+  with intimate knowledge of Exchange and our products. You'll always
   talk to someone who is committed to providing timely solutions to your
   questions and issues. After-hours support is factored into any of our
-  Premier Support agreements so you can get a customer\'s issue resolved
+  Premier Support agreements so you can get a customer's issue resolved
   whenever you need.
 * **Free trial software** - Our software comes with free 21-day trials.
-  After training with us, you\'ll be able to get your customers
+  After training with us, you'll be able to get your customers
   delighted with our products so they can see first-hand how it solves
   their issues without them having to have spent a dime. You can focus
   on getting them excited about what other problems our software can
@@ -82,8 +72,8 @@ these benefits:
   Not-For-Resale copy of our flagship product, Add2Exchange Enterprise.
   Familiarize yourself with our products on-demand in your own
   environment and benefit from the same synchronization capabilities
-  you\'ll be selling to your customers. Personal testimony to the
-  product\'s effectiveness is one of the best ways to establish
+  you'll be selling to your customers. Personal testimony to the
+  product's effectiveness is one of the best ways to establish
   credibility with skeptical potential customers. (NFR copy does not
   count as a sale towards referral credit)
 * **Marketing collateral** - Email and printable materials for market
@@ -91,10 +81,10 @@ these benefits:
   desire in your customer base. Our materials are brandable and
   personalizable.
 
-[Learn More](how_it_works){: .art-button-old}
+[Learn More]{: .art-button-old}
 {: .how-it-works style="float: left;"}
 
-[Sign up now!](referral_signup){: .art-button-old}
+[Sign up now!]{: .art-button-old}
 {: .signup style="float: left;"}
 
 Sign up today and get started earning!
@@ -106,7 +96,7 @@ Sign up today and get started earning!
 customers who use Microsoft products (Exchange, Outlook, Office), mobile
 devices and smartphones (iPhones,iPads, Androids, Blackberry), BES, we
 invite you to join our authorized resellers team. Email us at
-PartnerPrograms @ diditbetter.com or [download the reseller kit.][1]
+PartnerPrograms @ diditbetter.com or download the [reseller kit].
 
 **Benefits of Joining our Authorized Reseller Team:**
 
@@ -131,4 +121,7 @@ PartnerPrograms @ diditbetter.com or [download the reseller kit.][1]
 *Are any of your customers ready to benefit from hosted solutions? Ask
 us about Hosted Solutions Authorized Reseller Program.*
 
-[1]: http://sales.diditbetter.com/DidItBetterAuthorizedResellerProgram.pdf 
+[Authorized Reseller Program]: #diditbettercom-authorized-reseller-program
+[Learn More]: /how_it_works
+[Sign up now!]: /referral_signup
+[reseller kit]: /DidItBetterAuthorizedResellerProgram.pdf 

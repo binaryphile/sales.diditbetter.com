@@ -1,21 +1,21 @@
 ---
 title: How It Works
-description: A description of the workings of the DidItBetter.com Referral program
+description: A description of the workings of the DidItBetter.com Affiliate Referral Agent Program
 ---
 
 **DidItBetter Software solutions complement and add functionality to
 your Microsoft Exchange, Microsoft Outlook, Microsoft Office and mobile
 devices!**
 
-Thank you for your recommending our DidItBetter Software solutions and
-welcome the opportunity to work with you in introducing our innovative
-solutions to your clients. We invite you to join the DidItBetter
-Software Affiliate Referral team.
+Thank you for your recommending our DidItBetter.com Software solutions
+and welcome the opportunity to work with you in introducing our
+innovative solutions to your clients. We invite you to join the
+DidItBetter.com Affiliate Referral Agent team.
 
 Our company has been in business since 1988 and as the pioneer of
 Exchange public folder and Outlook folder synchronization products; we
 have developed and enhanced our sync solutions over the last decade to
-meet our customers\' changing sync needs in the workplace and on the go.
+meet our customers' changing sync needs in the workplace and on the go.
 We offer server-side (Add2Exchange), client-side (Add2Outlook) and a
 hosted sync solution (hosted Exchange + hosted Add2Exchange). Because
 every company is not structured the same, our solutions were designed to
@@ -23,7 +23,7 @@ handle multiple sync scenarios allowing our customers to tailor
 Add2Exchange to meet their sync needs. For mobile device and smartphone
 users, our sync solutions benefit those who want to synchronize Exchange
 public folders to the personal folder which is where it needs to be in
-order for the mobile device\'s sync software to get to it.
+order for the mobile device's sync software to get to it.
 
 Consider our solutions if you are an IT consultant, value added
 provider, or network/systems integrator who recommends or supports
@@ -41,17 +41,17 @@ have clients who would benefit from:
 * CRM: Simple Contact and Lead Management and Marketing Solutions for
   Microsoft Office users.
 
-**Authorized Affiliate Referral Benefits**
+**Affiliate Referral Agent Benefits**
 
-* Active authorized Affiliate Referral Partners are eligible for leads
-  in their area.
+* Active authorized Affiliate Referral Agents are eligible for leads in
+  their area.
 * Free 21-day fully functional trial versions available for download
   from the web for your customers to try our solutions in their
   environment.
-* Attractive Authorized Affiliate Referral pricing and new revenue
+* Attractive Affiliate Referral Agent pricing and new revenue
   opportunities for your company. Please refer to Exhibit A in the
-  Authorized Affiliate Referral agreement for Authorized Affiliate
-  Referral discount schedule.
+  Affiliate Referral Agent agreement for Affiliate Referral Agent
+  discount schedule.
 * We offer one **not-for-resale (NFR)** copy of each DidItBetter
   Software solution at a special discount to your company for use and
   demonstration purposes in your company.
@@ -68,65 +68,37 @@ have clients who would benefit from:
   unlimited user license
 * 25% discount off the regular retail price of any Add2Outlook Sync
   Suite license for a single EOU on 1 server or any DidIT! CRM 10 (or
-  more) user license
+      more) user license
 
-One NFR copy per solution per Authorized Affiliate Referral
-organization.
+One NFR copy per solution per Affiliate Referral Agent organization.
 
-Please review our solutions at [http://www.diditbetter.com/][1]. If you
-feel your customers would benefit from our solutions and you are ready
-to join our Authorized Affiliate Referral team, please complete and
-return the attached Authorized Affiliate Referral Profile and
-Agreements. If you\'re interested in reselling our Hosted Services,
-please ask for our Hosted Solution Authorized Affiliate Referral Kit.
+Please review our solutions at [our website]. If you feel your customers
+would benefit from our solutions and you are ready to join our Affiliate
+Referral Agent team, please go to the [signup process].
 
-**Get Started Today! It\'s FREE to join! If you have any questions,
+If you're interested in reselling our Hosted Services, please ask for
+our Hosted Solution Affiliate Referral Agent Kit.
+
+**Get Started Today! It's FREE to join! If you have any questions,
 please email us at PartnerPrograms@diditbetter.com. We look forward to
 the working with you!**
 
 ## Getting Started   {#getting-started}
 
-![New Account]({{urls.media}}/new_account.png){: width="175" height="115" style="float:
-right;"}
+Go to the [signup process].  Once you've been approved and configured in
+our system, follow these instructions to begin sending referrals.
 
-The first thing you will need is to create an account on our
-store.diditbetter.com. This is a different log in than the
-support.diditbetter.com to enhance your security and separate
-administration versus support engineering. The two sites can have the
-same log in and password if you register with the same information. For
-higher security, we suggest using your company\'s support email account
-for support.
-
-Go to [http://store.diditbetter.com/][2] and follow along with these
-instructions.
-
-If you have a login, use it to log in. If you don\'t already have a
-login:
-
-* Click the *Login* link in the upper right-hand corner of the screen
-* At the bottom of the page, click *Create a new account*
-* Enter your email and password, then click *Create*
-
-**Whenever you work with referrals, you\'ll need to be logged into your
+**Whenever you work with referrals, you'll need to be logged into your
 account.**
 
-Once you have your store.diditbetter.com account set up and have filled
-out the Referral application below and furnish the paperwork required to
-send you referral checks, we will contact you by the email you have
-specified when you are approved as a referral agent. Once approved, you
-will be able to use the referral capability with that account and be
-able to manage and check the status of the carts which are pending or
-have checked out.
-
-Note, you will not be able to see any of the \"referral functionality\"
+Note, you will not be able to see any of the referral functionality
 on the site until your account has been enabled and the following
 screens will help you familiarize yourself with the new functionality
 you will see on the store.diditbetter.com site.
 
-![]({{urls.media}}/download_button-2.png){: width="152" height="140" style="float:
-right;"}
+![Download]{: width="152" height="140" style="float: right;"}
 
-## Referrals   {#product-and-cart-referrals}
+## Referrals   {#referrals}
 
 Your prospects are your prospects and we will not try to contact them
 directly. The only way we would contact them is if they call in to our
@@ -134,61 +106,58 @@ company to ask questions. If they do call in, we will ask if they are
 working with one of our referral partners to include you in the
 conversation.
 
-The easiest way to find a product page is through the product
-descriptions on our main site at:
-
-[http://www.diditbetter.com/products.aspx][3]
+The easiest way to find a product page is through the [product
+descriptions] on our main site.
 
 Each product has a purchase button which will take you to the
 appropriate page or category on the store.
 
 When you know what product and options you want the customer purchase,
-click the <span style="font-style: italic;">Add To Cart</span> button.
- Once you have all of the products you want in the cart, click the <span
-style="font-style: italic;">Cart</span> link to view the cart
-contents.![Cart Referral]({{urls.media}}/cart_referral.png){: width="349" height="207"
-style="float: right;"}
+click the *Add To Cart* button.   Once you have all of the products you
+want in the cart, click the *Cart* link to view the cart contents.
+
+![Cart Referral]{: width="349" height="207" style="float: right;"}
 
 In the cart, review your contents and make any final changes.  At the
 bottom is the *Send Referral* button. To send the cart to a lead, click
 the button. Your email client will open to compose the email. The
 message subject and body will be filled out with some basic information.
 You can craft the message however you like, adding the recipient in the
-*To* field as well. When you\'re ready, go ahead and send it.
+*To* field as well. When you're ready, go ahead and send it.
 
 You can send the same message to one or many recipients. If you do not
-want multiple recipients to see each other\'s contact information, just
+want multiple recipients to see each other's contact information, just
 use the Bcc field.
 
 To make sure we have record that your prospect is your prospect for any
-eventual sale, the Referral email message can automatically Bcc
-Referral@diditbetter.com so you get credit when they use your referral
+eventual sale, the referral email message can automatically Bcc
+referral@diditbetter.com so you get credit when they use your referral
 link for the sale. If you download a trial for the customer, be sure to
 specify your company as the IT so our automatic drip campaign does not
 activate.
 
-Remember to empty the *To* field of its default \"Friend\" contents in
-either case and replace it with your customer\'s email address.
+Remember to empty the *To* field of its default "Friend" contents in
+either case and replace it with your customer's email address.
 
-![Email]({{urls.media}}/email.png){: width="606" height="272"}
+![Email]{: width="606" height="272"}
 {: style="text-align: center;"}
 
 Included in the email body is the link to the contents of the cart. The
 link carries your email encoded within it so your account is associated
 with any order which results from ordering using this link.
 
-When the lead visits the link from their computer, your Referral email
+When the lead visits the link from their computer, your referral email
 address will be attached to any order they make. Even if they end up
 choosing to purchase a different product, you will still be listed as
-the Referral Partner.
+the Affiliate Referral Agent.
 
 There are two situations where your email will be cleared from that
 lead. The first is if they click a different referral link, one which
 contains a different referral partner. The second is if they clear their
 browser cache before purchase, or if they purchase from a different
 computer. While there is a chance either of these situations could
-arise, they won\'t happen in the normal course of business. Optionally,
-if you utilize the automatic Bcc to our email, we will be able to give
+arise, they won't happen in the normal course of business. Optionally,
+if you utilize the automatic bcc to our email, we will be able to give
 you the credit for the referral sale as long as the the customer does
 not select a different referral partner.
 
@@ -197,8 +166,7 @@ our site shows the same purchases.
 
 ## Viewing Your Completed Referrals   {#viewing-your-completed-referrals}
 
-![Your account]({{urls.media}}/your_account.png){: width="289" height="67"
-style="float: right;"}
+![Your account]{: width="289" height="67" style="float: right;"}
 
 When a customer completes an order which lists you as a Referral Agent,
 the order becomes available for viewing on your account page.
@@ -220,15 +188,22 @@ resale. This section should not be confused with your referrals.
 
 ## Payment for your Completed Referrals   {#payment-for-your-completed-referrals}
 
-Once a month we will tally your completed Referral Orders and send you a
+Once a month we will tally your completed referral orders and send you a
 check. 
 
-[Sign up now!](referral_signup){: .art-button-old}
+[Sign up now!]{: .art-button-old}
 {: .signup style="float: left;"}
-[Go to store][4]{: .art-button-old}
+
+[Go to store]{: .art-button-old}
 {: .how-it-works style="float: left;"}
 
-[1]: http://www.diditbetter.com/ 
-[2]: http://store.diditbetter.com/ 
-[3]: http://www.diditbetter.com/products.aspx 
-[4]: http://store.diditbetter.com 
+[our website]: http://www.diditbetter.com/ 
+[signup process]: /referral_signup
+[Download]: {{urls.media}}/download_button-2.png
+[product descriptions]: http://www.diditbetter.com/products.aspx
+[Cart Referral]: {{urls.media}}/cart_referral.png
+[Email]: {{urls.media}}/email.png
+[Your account]: {{urls.media}}/your_account.png
+[Sign up now!]: /referral_signup
+[Go to store]: http://store.diditbetter.com/
+

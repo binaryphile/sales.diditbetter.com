@@ -1,4 +1,8 @@
-<div><textarea rows="26" style="width: 100%;" readonly="readonly">
+## Complete NDA   {#complete-nda}
+{: .StepTitle}
+
+<p>
+<textarea rows="26" readonly="readonly">
 Non-Disclosure Agreement
  
 This Agreement is made between Advantage International, Inc. / DidItBetter Software (“DIDITBETTER SOFTWARE”) a Florida corporation, with its principle offices at 17633 Gunn Highway, #149, Odessa, Florida 33556 USA, and (“Authorized Affiliate Referral Agent ”).
@@ -44,4 +48,11 @@ c.      Any provision of this Agreement which shall be found to be in conflict w
 d.      This Agreement and all rights and obligations hereunder shall be governed and construed in accordance with the laws of the State of Florida (excluding its conflict of law provisions) and, to the extent applicable, the laws of the United States.
 
 IN WITNESS WHEREOF, DIDITBETTER SOFTWARE and Authorized Affiliate Referral have causes this Agreement to be executed by their duly authorized representatives and delivered as their act and deed, intending to be legally bound by its terms and provisions.
-</textarea></div>
+</textarea>
+</p>
+
+<label><input id="agree2" value="" type="checkbox" />I agree</label>
+{: style="float: right;"}
+
+[Download Agreement](/nda.pdf){: target="_blank" .art-button}
+
