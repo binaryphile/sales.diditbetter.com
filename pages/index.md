@@ -14,9 +14,9 @@ tooltips: true
 </article>
 <div id="tabs" markdown="1">
 
-* [Affiliate Referral Agent Program](#tabs-1){: title="For people who
+* [Affiliate Referral Agent Program](#tabs-1){: title="For those who
   want us to support the customer."}
-* [Authorized Reseller Program](#tabs-2){: title="For people who want to
+* [Authorized Reseller Program](#tabs-2){: title="For those who want to
   manage their customer's support experience."}
 
 <div id="tabs-1" markdown="1">
