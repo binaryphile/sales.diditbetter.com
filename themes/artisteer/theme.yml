@@ -3,6 +3,7 @@
     "default" : [
       "style.css",
       style.responsive.css,
+      custom.css,
     ],
    
     "widgets" : {

@@ -5,5 +5,6 @@ guard 'livereload' do
   watch(%r{pages})
   watch(%r{partials})
   watch(%r{themes})
+  watch(%r{data.yml})
 end
 

@@ -9,3 +9,6 @@ navigation :
   - referral_signup.md
   - collateral.md
 
+jqueryui:
+  theme: redmond
+

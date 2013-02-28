@@ -1,28 +1,35 @@
 <head>
   <meta charset="utf-8" />
-  <title>{{ data.title }}</title>
-  {{# page.description }}
-  <meta name="description" content="{{ . }}" />
-  {{/ page.description }}
-  <meta name="author" content="{{ data.author.name }}" />
-  {{{ stylesheets.all }}}
-  {{{ javascripts.all }}}
+  <title>{{data.title}}</title>
+  {{#page.description}}
+  <meta name="description" content="{{.}}" />
+  {{/page.description}}
+  <meta name="author" content="{{data.author.name}}" />
+  {{{stylesheets.all}}}
+  {{{javascripts.all}}}
   <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width" />
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
-  <link rel="shortcut icon" href="{{ urls.media }}/favicon.ico" />
-  {{# data.rss }}
+  <link rel="shortcut icon" href="{{urls.media}}/favicon.ico" />
+  {{#data.rss}}
   <link rel="alternate" type="application/rss+xml" title="{{ title }}" href="{{ href }}" />
-  {{/ data.rss }}
-  {{# data.cufon }}
-  <script type="text/javascript">
-    {{# .replace }}
-    Cufon.replace('.{{ class }}', {fontFamily: '{{ font }}'});
-    {{/ .replace }}
-  </script>
-  {{/ data.cufon }}
-  {{# page.scripts}}
+  {{/data.rss}}
+  {{#page.scripts}}
   <script src="{{urls.javascripts}}/{{.}}"></script>
-  {{/ page.scripts}}
+  {{/page.scripts}}
+  {{#data.jqueryui}}
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/{{theme}}/jquery-ui.css" />
+  <script>
+    $(document).ready(function () {
+      {{#page.tabs}}
+      $("#tabs").tabs();
+      {{/page.tabs}}
+      {{#page.tooltips}}
+      $(document).tooltip();
+      {{/page.tooltips}}
+    });
+  </script>
+  {{/data.jqueryui}}
 </head>
 

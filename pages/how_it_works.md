@@ -59,7 +59,9 @@ have clients who would benefit from:
   orders in one calendar quarter, you will receive one free NFR for use
   in your organization of our Add2Exchange Enterprise Sync Suite with an
   unlimited relationships license with 1 year software assurance.
-* You may also purchase a NFR copy at a special VAR discount:
+
+You may also purchase a NFR copy at a special VAR discount:
+
 * 50% discount off the regular price of Add2Exchange Enterprise Sync
   Suite (all 4 folder types) Value Bundle NFR license
 * 30% discount off the regular price of Add2Exchange Enterprise Sync
@@ -68,7 +70,7 @@ have clients who would benefit from:
   unlimited user license
 * 25% discount off the regular retail price of any Add2Outlook Sync
   Suite license for a single EOU on 1 server or any DidIT! CRM 10 (or
-      more) user license
+  more) user license
 
 One NFR copy per solution per Affiliate Referral Agent organization.
 

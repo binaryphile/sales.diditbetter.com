@@ -1,4 +1,4 @@
-## Create An Account   {#create-an-account}
+## Create An Account
 {: .StepTitle}
 
 Please visit the account creation page on our store and make your

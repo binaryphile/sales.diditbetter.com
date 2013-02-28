@@ -38,7 +38,7 @@ scripts:
 
 <div id="step-1" markdown="1">
 
-{{> create-account}}
+{{> create_account}}
 
 </div>
 <div id="step-2" markdown="1">
