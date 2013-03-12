@@ -55,6 +55,7 @@ IN WITNESS WHEREOF, DIDITBETTER SOFTWARE and Authorized Affiliate Referral have 
 {: .float-right}
 
 [Download Agreement](/nda.pdf){: target="_blank" .art-button}
+{: .float-left}
 
 [Download All Documents for Steps 1-5](/all.zip){: target="_blank" .art-button}
 {: .float-left}
