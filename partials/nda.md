@@ -52,7 +52,10 @@ IN WITNESS WHEREOF, DIDITBETTER SOFTWARE and Authorized Affiliate Referral have 
 </p>
 
 <label><input id="agree2" value="" type="checkbox" />I agree</label>
-{: style="float: right;"}
+{: .float-right}
 
 [Download Agreement](/nda.pdf){: target="_blank" .art-button}
+
+[Download All Documents for Steps 1-5](/all.zip){: target="_blank" .art-button}
+{: .float-left}
 

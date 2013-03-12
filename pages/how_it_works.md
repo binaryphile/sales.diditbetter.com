@@ -194,10 +194,7 @@ Once a month we will tally your completed referral orders and send you a
 check. 
 
 [Sign up now!]{: .art-button-old}
-{: .signup style="float: left;"}
-
-[Go to store]{: .art-button-old}
-{: .how-it-works style="float: left;"}
+{: .signup}
 
 [our website]: http://www.diditbetter.com/ 
 [signup process]: /referral_signup

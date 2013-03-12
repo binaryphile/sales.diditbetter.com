@@ -7,6 +7,7 @@ navigation :
   - index.md
   - how_it_works.md
   - referral_signup.md
+  - whats_next.md
   - collateral.md
 
 jqueryui:

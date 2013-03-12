@@ -2,3 +2,12 @@
   font-family: inherit;
   font-size: inherit;
 }
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
