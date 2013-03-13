@@ -1,10 +1,9 @@
 ---
 title: What's Next
-description: A description of the workings of the DidItBetter.com Affiliate Referral Agent Program
+description: Next steps to take after you've signed up for the Affiliate Referral Program
 ---
 
-Congratulations, and thanks for signing up!
-{: .notice}
+### Congratulations and thanks for signing up!
 
 While we process your materials, here are some options for you to
 familiarize yourself with our products and support.

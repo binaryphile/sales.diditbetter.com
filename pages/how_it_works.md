@@ -41,7 +41,7 @@ have clients who would benefit from:
 * CRM: Simple Contact and Lead Management and Marketing Solutions for
   Microsoft Office users.
 
-**Affiliate Referral Agent Benefits**
+##### Affiliate Referral Agent Benefits
 
 * Active authorized Affiliate Referral Agents are eligible for leads in
   their area.
@@ -85,7 +85,7 @@ our Hosted Solution Affiliate Referral Agent Kit.
 please email us at PartnerPrograms@diditbetter.com. We look forward to
 the working with you!**
 
-## Getting Started   {#getting-started}
+### Getting Started
 
 Go to the [signup process].  Once you've been approved and configured in
 our system, follow these instructions to begin sending referrals.
@@ -100,7 +100,7 @@ you will see on the store.diditbetter.com site.
 
 ![Download]{: width="152" height="140" style="float: right;"}
 
-## Referrals   {#referrals}
+##### Referrals
 
 Your prospects are your prospects and we will not try to contact them
 directly. The only way we would contact them is if they call in to our
@@ -166,7 +166,7 @@ not select a different referral partner.
 It is helpful to keep track of your referrals who purchase and to verify
 our site shows the same purchases.
 
-## Viewing Your Completed Referrals   {#viewing-your-completed-referrals}
+##### Viewing Your Completed Referrals
 
 ![Your account]{: width="289" height="67" style="float: right;"}
 
@@ -188,7 +188,7 @@ These are orders you have purchased from your account, for your account.
 This section would list what you have purchased for yourself or for
 resale. This section should not be confused with your referrals.
 
-## Payment for your Completed Referrals   {#payment-for-your-completed-referrals}
+##### Payment for your Completed Referrals
 
 Once a month we will tally your completed referral orders and send you a
 check. 
