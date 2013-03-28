@@ -19,6 +19,13 @@ GIT
       thor (>= 0.14.6)
 
 GIT
+  remote: git://github.com/johnbintz/rack-livereload.git
+  revision: 20f03cbe7c1d2e333e03f61f9a3b9e0fd96f68b8
+  specs:
+    rack-livereload (0.3.12)
+      rack
+
+GIT
   remote: git://github.com/nex3/rb-inotify.git
   revision: 6a8f19cf31cb84783ddfb99aebe4cb16f34e5219
   specs:
@@ -82,6 +89,7 @@ DEPENDENCIES
   guard!
   guard-livereload!
   kramdown (~> 0.14)
+  rack-livereload!
   rb-inotify!
   ruhoh!
   wdm
