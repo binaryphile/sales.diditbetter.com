@@ -1,7 +1,7 @@
 ---
 title: Home
 description: The DidItBetter.com Sales and Marketing site
-manual_post: true
+manual-post: true
 tabs: true
 tooltips: true
 ---
@@ -23,7 +23,7 @@ tooltips: true
 <article class="art-post art-article">
 <div class="art-postcontent art-postcontent-0 clearfix" markdown="1">
 
-{{>referral_agent_program}}
+{{>referral-agent-program}}
 
 </div>
 </article>
@@ -32,7 +32,7 @@ tooltips: true
 <article class="art-post art-article">
 <div class="art-postcontent art-postcontent-0 clearfix" markdown="1">
 
-{{>authorized_reseller_program}}
+{{>authorized-reseller-program}}
 
 </div>
 </article>

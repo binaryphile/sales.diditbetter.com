@@ -1,7 +1,7 @@
 # A sample Guardfile
 # More info at https://github.com/guard/guard#readme
 
-guard 'livereload' do
+guard 'livereload', grace_period: 1 do
   watch(%r{pages})
   watch(%r{partials})
   watch(%r{themes})

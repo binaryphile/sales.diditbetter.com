@@ -4,6 +4,9 @@
 {{#page.description}}
   <meta name="description" content="{{.}}" />
 {{/page.description}}
+{{#page.redirect}}
+  <meta http-equiv="refresh" content="{{timeout}};URL={{url}}">
+{{/page.redirect}}
   <meta name="author" content="{{data.author.name}}" />
 {{{stylesheets.all}}}
 {{{javascripts.all}}}

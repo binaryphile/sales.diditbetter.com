@@ -2,12 +2,469 @@
   font-family: inherit;
   font-size: inherit;
 }
-
 .float-right {
   float: right;
 }
-
 .float-left {
   float: left;
 }
+input.tel-ext { /* second selector is to override specifity of another selector */
+  width: 5em;
+}
+input#num-emp {
+  width: 5em;
+}
+/* Basic tabular structure */
+.tel-tabular {
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    display: table;
+    width: 100%;
+}
+.tel-tabular > div, .tel-tabular > li {
+    display: table-row-group;
+    width: 100%;
+}
+.tel-tabular > div > input, .tel-tabular > div > label,
+.tel-tabular > div > span, .tel-tabular > div > dl,
+.tel-tabular > li > input, .tel-tabular > li > label,
+.tel-tabular > li > span, .tel-tabular > li > dl {
+    display: table-cell;
+}
+.tel-fieldset > div:nth-child(2) > *:first-child {
+  padding-top: 1em;
+}
+.tel-tabular input {
+    margin-right: 1em;
+    width: 20em;
+}
+.tel-tabular input[type=radio], .tel-tabular input[type=checkbox] {
+  width: auto;
+}
+.tel-tabular label {
+    text-align: right;
+}
+/* Extended cells */
+ .tel-tabular > div > span > span, .tel-tabular > li > span > span {
+    display: inline-block;
+    width: 0;
+    white-space: nowrap;
+}
+.tel-tabular .tel-zip {
+    width: 4em;
+}
+.tel-tabular .tel-country {
+  width: 9.8em;
+}
+/* Mock fieldsets */
+.tel-fieldset {
+    border: 1px solid;
+}
+.tel-fieldset > div {
+    display: table-row;
+    padding-right: 0;
+}
+.tel-fieldset > div > input, .tel-fieldset > div > label,
+.tel-fieldset > div > span, .tel-fieldset > div > dl {
+    display: table-cell;
+}
+.tel-fieldset > div > span > span {
+    display: inline-block;
+    width: 0;
+    white-space: nowrap;
+}
+.tel-fieldset .tel-legend {
+    position: relative;
+    display: block;
+    font-weight: bold;
+}
+.tel-legend > div {
+    position: absolute;
+    top: -0.74em;
+    left: 0.6em;
+    display: block;
+    background: white;
+    padding: 0 0.3em;
+    white-space: nowrap;
+}
+.tel-tabular label {
+    padding-right: 0.3em;
+    padding-bottom: 1.2em;
+}
+.tel-fieldset > div > label:first-child,
+.tel-fieldset > div > dl:first-child {
+    padding-left: 0.3em;
+}
+.tel-tabular dl ol {
+  list-style: none;
+}
+dt {
+  font-weight: bold;
+}
+.slug {
+  width: 13em;
+}
+.tel-comp-desc {
+  width: 56.3em;
+  margin-bottom: 1em;
+  border-color: #ABADB3;
+}
+.tel-tabular [required] {
+  border: 1px solid black;
+}
+.tel-tabular textarea, .tel-tabular select, .tel-tabular input {
+  padding: 1px;
+  font-size: inherit;
+  color: inherit !important;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  border: 1px solid gray;
+}
+.tel-tabular input[type="number"].no-spin::-webkit-outer-spin-button,
+.tel-tabular input[type="number"].no-spin::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.tel-tabular .required {
+  font-weight: bold;
+}
+textarea {
+  width: 100%;
+}
+/*   
+  SmartWizard 2.0 plugin 
+  jQuery Wizard control Plugin
+  by Dipu
+  
+  http://www.techlaboratory.net
+  http://tech-laboratory.blogspot.com
+*/
+#wizard {
+  position:relative;
+  display:block;
+  margin:0;
+  padding:0;
+  border: 0px solid #CCC;
+  overflow:visible;
+  float:left;
+  width:980px;
+}
+#wizard .stepContainer {
+  display:block;
+  position: relative;
+  margin: 0;
+  padding:0;    
+  border: 0px solid #CCC;    
+  overflow:hidden;
+  clear:both;
+  height: 700px;
+}
 
+#wizard .stepContainer div.content {
+  display:block;
+  position: absolute;  
+  float:left;
+  margin: 0;
+  padding:5px;    
+  border: 1px solid #CCC; 
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif; 
+  color:#5A5655;   
+  background-color:#F8F8F8;  
+  text-align:left;
+  overflow:visible;    
+  z-index:88; 
+  -webkit-border-radius: 5px;
+  -moz-border-radius  : 5px;
+  width:968px;
+  clear:both;
+}
+
+#wizard div.actionBar {
+  display:block;
+  position: relative; 
+  clear:both;
+  margin:             3px 0 0 0;   
+  border:             1px solid #CCC;
+  padding:            0;    
+  color:              #5A5655;   
+  background-color:   #F8F8F8;
+  height:40px;
+  text-align:left;
+  overflow:auto;    
+  z-index:88; 
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius  : 5px;
+  left:0;
+}
+
+#wizard .stepContainer .StepTitle {
+  display:block;
+  position: relative;
+  margin:0;   
+  border:1px solid #E0E0E0;
+  padding:5px;   
+  font: bold 16px Verdana, Arial, Helvetica, sans-serif; 
+  color:#5A5655;   
+  background-color:#E0E0E0;
+  clear:both;
+  text-align:left; 
+  z-index:88;
+  -webkit-border-radius: 5px;
+  -moz-border-radius  : 5px;    
+}
+#wizard ul.anchor {
+  position: relative;
+  display:block;
+  float:left;
+  list-style: none;
+  padding: 0px;  
+  margin: 10px 0;      
+  clear: both;
+  border: 0px solid #CCCCCC;    
+  background: transparent; /*#EEEEEE */
+}
+#wizard ul.anchor li{ 
+  background-image: none;
+  position: relative; 
+  display:block;
+  margin: 0;
+  padding: 0; 
+  padding-left:3px;
+  padding-right: 3px;
+  border: 0px solid #E0E0E0;      
+  float: left;
+}
+/* Anchor Element Style */
+#wizard ul.anchor li a {
+  display:block;
+  position:relative;
+  float:left;
+  margin:0;
+  padding:3px;
+  height:60px;
+  width:182px;
+  text-decoration: none;
+  outline-style:none;
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+  z-index:99;
+}
+#wizard ul.anchor li a .stepNumber{
+  position:relative;
+  float:left;
+  width:30px;
+  text-align: center;
+  padding:5px;
+  padding-top:0;
+  font: bold 45px Verdana, Arial, Helvetica, sans-serif;
+}
+#wizard ul.anchor li a .stepDesc{
+  position:relative;
+  display:block;
+  float:left;
+  text-align: left;
+  padding:5px;
+
+  font: bold 20px Verdana, Arial, Helvetica, sans-serif;
+}
+#wizard ul.anchor li a .stepDesc small{
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+}
+#wizard ul.anchor li a.selected{
+  color:#F8F8F8;
+  background: #EA8511;  /* EA8511 */
+  border: 1px solid #EA8511;
+  cursor:text;
+}
+#wizard ul.anchor li a.selected:hover {
+  color:#F8F8F8;  
+  background: #EA8511;  
+}
+
+#wizard ul.anchor li a.done { 
+  position:relative;
+  color:#FFF;  
+  background: #7DAED4;  
+  border: 1px solid #7DAED4;   
+  z-index:99;
+}
+#wizard ul.anchor li a.done:hover {
+  color:#5A5655;  
+  background: #7DAED4; 
+  border: 1px solid #5A5655;   
+}
+#wizard ul.anchor li a.disabled {
+  color:#CCCCCC;  
+  background: #F8F8F8;
+  border: 1px solid #CCC;  
+  cursor:text;   
+}
+#wizard ul.anchor li a.disabled:hover {
+  color:#CCCCCC;  
+  background: #F8F8F8;     
+}
+
+#wizard ul.anchor li a.error {
+  color:#6c6c6c !important;  
+  background: #f08f75 !important;
+  border: 1px solid #fb3500 !important;      
+}
+#wizard ul.anchor li a.error:hover {
+  color:#000 !important;       
+}
+
+#wizard .buttonNext {
+  display:block;
+  float:right;
+  margin:5px 3px 0 3px;
+  padding:5px;
+  text-decoration: none;
+  text-align: center;
+  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+  width:100px;
+  color:#FFF;
+  outline-style:none;
+  background-color:   #5A5655;
+  border: 1px solid #5A5655;
+  -moz-border-radius  : 5px; 
+  -webkit-border-radius: 5px;    
+}
+#wizard .buttonDisabled {
+  color:#F8F8F8  !important;
+  background-color: #CCCCCC !important;
+  border: 1px solid #CCCCCC  !important;
+  cursor:text;    
+}
+#wizard .buttonPrevious {
+  display:block;
+  float:right;
+  margin:5px 3px 0 3px;
+  padding:5px;
+  text-decoration: none;
+  text-align: center;
+  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+  width:100px;
+  color:#FFF;
+  outline-style:none;
+  background-color:   #5A5655;
+  border: 1px solid #5A5655;
+  -moz-border-radius  : 5px; 
+  -webkit-border-radius: 5px;    
+}
+#wizard .buttonFinish {
+  display:block;
+  float:right;
+  margin:5px 10px 0 3px;
+  padding:5px;
+  text-decoration: none;
+  text-align: center;
+  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+  width:100px;
+  color:#FFF;
+  outline-style:none;
+  background-color:   #5A5655;
+  border: 1px solid #5A5655;
+  -moz-border-radius  : 5px; 
+  -webkit-border-radius: 5px;    
+}
+
+/* Form Styles */
+
+.txtBox {
+  border:1px solid #CCCCCC;
+  color:#5A5655;
+  font:13px Verdana,Arial,Helvetica,sans-serif;
+  padding:2px;
+  width:430px;
+}
+.txtBox:focus {
+  border:1px solid #EA8511;
+}
+
+#wizard .loader {
+  position:relative;  
+  display:none;
+  float:left;  
+  margin: 2px 0 0 2px;
+  padding:8px 10px 8px 40px;
+  border: 1px solid #FFD700; 
+  font: bold 13px Verdana, Arial, Helvetica, sans-serif; 
+  color:#5A5655;       
+  background: #FFF url(../media/preloader-01.gif) no-repeat 5px;  
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+  z-index:998;
+}
+#wizard .msgBox {
+  position:relative;  
+  display:none;
+  float:left;
+  margin: 4px 0 0 5px;
+  padding:5px;
+  border: 1px solid #FFD700; 
+  background-color: #FFFFDD;  
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif; 
+  color:#5A5655;         
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+  z-index:999;
+  min-width:200px;  
+}
+#wizard .msgBox .content {
+  font: normal 12px Verdana,Arial,Helvetica,sans-serif;
+  padding: 0px;
+  float:left;
+}
+#wizard .msgBox .close {
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  color: #CCC;
+  display: block;
+  float: right;
+  margin: 0 0 0 5px;
+  outline-style: none;
+  padding: 0 2px 0 2px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+#wizard .msgBox .close:hover{
+  color: #EA8511;
+  border: 1px solid #EA8511;  
+}
+.art-blockheader .t, .art-vmenublockheader .t {white-space: nowrap;}
+
+/* Add wide layout template */
+
+body.wide {
+  min-width: 1000px;
+}
+
+body.wide .art-sheet {
+  width: 1000px;
+}
+
+body.wide .art-foot-inner {
+  width: 1000px;
+}
+
+/* Make centered table */
+table.center {
+  width: 100%;
+}
+
+table.center td {
+  vertical-align: middle;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Make a notice style like h5 */
+
+.notice {
+  color: #F60;
+  font-weight: bold;
+}
+/* End Additional CSS Styles */

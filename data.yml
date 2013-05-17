@@ -5,11 +5,13 @@ author :
 
 navigation :
   - index.md
-  - how_it_works.md
-  - referral_signup.md
-  - whats_next.md
+  - how-it-works.md
+  - referral-signup.md
+  - whats-next.md
   - collateral.md
 
 jqueryui:
   theme: redmond
+
+no-chat: false
 

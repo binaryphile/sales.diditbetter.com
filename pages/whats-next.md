@@ -14,6 +14,6 @@ familiarize yourself with our products and support.
 
 [1]: http://store.diditbetter.com/login 
 [2]: http://www.diditbetter.com/products.aspx 
-[3]: /how_it_works/index.html#getting-started
+[3]: /how-it-works/index.html#getting-started
 [4]: http://support.diditbetter.com/ 
 

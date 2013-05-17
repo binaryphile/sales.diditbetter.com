@@ -2,7 +2,7 @@
 /* Created by Artisteer v3.1.0.46558 */
 // css helper
 /* begin Button */
-function artButtonSetup(className) {
+function oldArtButtonSetup(className) {
     jQuery.each(jQuery("a." + className + ", button." + className + ", input." + className), function (i, val) {
         var b = jQuery(val);
         if (!b.parent().hasClass('art-button-wrapper')) {
@@ -17,6 +17,6 @@ function artButtonSetup(className) {
         b.mouseup(function () { var b = jQuery(this); if (!b.hasClass('active')) b.parent().removeClass('active'); });
     });
 }
-jQuery(function() { artButtonSetup("art-button-old"); });
+jQuery(function() { oldArtButtonSetup("art-button-old"); });
 
 /* end Button */

@@ -51,12 +51,17 @@ IN WITNESS WHEREOF, DIDITBETTER SOFTWARE and Authorized Affiliate Referral have 
 </textarea>
 </p>
 
-<label><input id="agree2" value="" type="checkbox" />I agree</label>
+<input id="nda-agree" name="profile[nda_agree]" value="true" type="checkbox" required /><label for="nda-agree">I agree</label>
 {: .float-right}
+
+You may download a copy of the agreement for future reference:
+{: .notice}
 
 [Download Agreement](/nda.pdf){: target="_blank" .art-button}
 {: .float-left}
 
 [Download All Documents for Steps 1-5](/all.zip){: target="_blank" .art-button}
 {: .float-left}
+
+<div class="clearfix"></div>
 

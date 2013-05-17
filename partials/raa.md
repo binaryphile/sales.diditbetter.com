@@ -140,12 +140,17 @@ To become an authorized Affiliate Referral Agent, Authorized Affiliate Referral 
 </textarea>
 </p>
 
-<label><input id="agree" value="" type="checkbox" />I agree</label>
+<input id="raa-agree" name="profile[raa_agree]" value="true" type="checkbox" required /><label for="raa-agree">I agree</label>
 {: .float-right}
+
+You may download a copy of the agreement for future reference:
+{: .notice}
 
 [Download Agreement](/raa.pdf){: target="_blank" .art-button}
 {: .float-left}
 
 [Download All Documents for Steps 1-5](/all.zip){: target="_blank" .art-button}
 {: .float-left}
+
+<div class="clearfix"></div>
 

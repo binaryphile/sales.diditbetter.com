@@ -1,23 +1,24 @@
   $(document).ready(function(){
         // Smart Wizard         
         $('#wizard').smartWizard({onShowStep:showAStepCallback, onFinish: finish});
+        $('input[type="submit"]').hide();
  
       function showAStepCallback(obj){
         var step_num= obj.attr('rel'); // get the current step number
-        if (step_num === "2") {
-          $('.buttonNext').toggleClass("buttonDisabled", !$('#agree').checked);
+        if (step_num === "1") {
+          $('.buttonNext').toggleClass("buttonDisabled", !$('#nda-agree')[0].checked);
         }
-        if (step_num === "3") {
-          $('.buttonNext').toggleClass('buttonDisabled', !$('#agree2').checked);
+        if (step_num === "2") {
+          $('.buttonNext').toggleClass('buttonDisabled', !$('#raa-agree')[0].checked);
         }
         return true;
       }
 
       function finish(obj){
-        window.location.href = '/whats_next'
+        $('input[type="submit"]').click();
       }
 
-      $("#agree").click(function() { $(".buttonNext").toggleClass("buttonDisabled", !this.checked); });
-      $("#agree2").click(function() { $(".buttonNext").toggleClass("buttonDisabled", !this.checked); });
+      $("#nda-agree").click(function() { $(".buttonNext").toggleClass("buttonDisabled", !this.checked); });
+      $("#raa-agree").click(function() { $(".buttonNext").toggleClass("buttonDisabled", !this.checked); });
   });
 

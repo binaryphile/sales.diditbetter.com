@@ -1,6 +1,6 @@
-/* Created by Artisteer v4.0.0.58475 */
+/* Created by Artisteer v4.1.0.59861 */
 /*jshint forin:true, noarg:true, noempty:true, eqeqeq:true, bitwise:true, strict:true, undef:true, curly:false, browser:true, jquery:false */
-/*global jQuery */
+/*global jQuery BackgroundHelper */
 
 // css helper
 (function ($) {
@@ -123,14 +123,14 @@ jQuery(function ($) {
                     var maxOffset = 0;
                     var stops = [];
                     for (m = 1; m < args.length; m++) {
-                        var stopValues = splitWithBrackets(args[m].trim(), ' ');
+                        var stopValues = splitWithBrackets($.trim(args[m]), ' ');
                         if (stopValues.length < 2) {
                             continue;
                         }
-                        var stopColor = stopValues[0].trim();
+                        var stopColor = $.trim(stopValues[0]);
                         var stopOpacity = 1;
                         var colorRgba = splitByTokens(stopColor, 'rgba(', ')', true);
-                        var stopOffset = stopValues[1].trim();
+                        var stopOffset = $.trim(stopValues[1]);
                         if (colorRgba !== "") {
                             var rgba = colorRgba.split(',');
                             if (rgba.length < 4) {
@@ -156,7 +156,7 @@ jQuery(function ($) {
                             lastStop = stops[m];
                         }
                     }
-                    var isLeft = args[0].trim() === 'left';
+                    var isLeft = $.trim(args[0]) === 'left';
                     var direction = 'x1="0%" y1="0%" ' + (isLeft ? 'x2="100%" y2="0%"' : 'x2="0%" y2="100%"');
                     var gradientLength = '100%';
                     if (maxOffset > 0) {
@@ -187,7 +187,7 @@ jQuery(function ($) {
 jQuery(function ($) {
     'use strict';
     // ie < 9 slider multiple background fix
-    if (!jQuery.browser.msie || jQuery.browser.version > 8) return;
+    if (!$.browser.msie || $.browser.version > 8) return;
     
     function split(str) {
         str = str.replace(/"/g, '').replace(/%20/g, '');
@@ -202,35 +202,114 @@ jQuery(function ($) {
         }
     });
 });
+
 jQuery(function ($) {
-    'use strict';
+    "use strict";
+    // ie8
+    if (!$.browser.msie || $.browser.version > 8) return;
+    $('.art-shapes').css('z-index', 1);
+    
+    // ie7
+    if (!$.browser.msie || $.browser.version > 7) return;
+    var textblockTexts = $('.art-textblock > div');
+    textblockTexts.each(function () {
+        var tbText = $(this);
+        var valign = tbText.css('vertical-align') ? tbText.css('vertical-align') : 'top';
+        if (valign === 'middle') {
+            var wrapper = tbText.wrap('<div/>').parent();
+            tbText.css({
+                'position': 'relative',
+                'top': '-50%',
+                'height': 'auto'
+            });
+            wrapper.css({
+                'position': 'absolute',
+                'top': '50%'
+            });
+        } else if (valign === 'bottom') {
+            tbText.css({
+                'position': 'absolute',
+                'height': 'auto',
+                'bottom': 0
+            });
+        }
+    });
+});
+
+/* Set wmode=transparent for iframes to show it under the menus, lightboxes etc. */
+jQuery(function ($) {
+    "use strict";
+    $("iframe[src]").each(function () {
+        var iframe = $(this);
+        var src = iframe.attr("src");
+        if (src == "") {
+            return;
+        }
+        if (src.lastIndexOf("?") !== -1) {
+            src += "&amp;wmode=transparent";
+        } else {
+            src += "?wmode=transparent";
+        }
+        iframe.attr("src", src);
+    });
+});
+
+jQuery(function ($) {
+    "use strict";
+    $(window).bind("resize", function () { navigatorResizeHandler($("html").hasClass("responsive")); });
+});
+
+var navigatorResizeHandler = (function ($) {
+    "use strict";
+    return function (responsiveDesign) {
+        if (responsiveDesign) return;
+        $(".art-slider").each(function () {
+            var slider = $(this);
+            var sliderWidth = slider.width();
+            var nav = slider.siblings(".art-slidenavigator");
+            if (nav.length) {
+                // left offset
+                var left = nav.attr("data-left");
+                // (margin = containerWidth - (objectPosition + objectWidth)) < 0
+                var margin = sliderWidth - sliderWidth * parseFloat(left) / 100 - nav.outerWidth(false);
+                if (margin < 0) {
+                    nav.css("margin-left", margin);
+                }
+            }
+        });
+    };
+})(jQuery);
+jQuery(function ($) {
+    "use strict";
     if ($('#art-main').children('header.art-header').length) {
         $('#art-menu-bg').insertAfter($('header.art-header'));
     }
 });
 
 jQuery(function($) {
-    'use strict';
+    "use strict";
     $('nav.art-nav').addClass("desktop-nav");
 });
 
-jQuery(window).bind('resize', function () {
-    'use strict';
-    var menu = jQuery("nav.art-nav");
-    var menuOffset = menu.offset();
-    var pageOffset = jQuery('#art-main').offset();
-    if (!menuOffset || !pageOffset) {
-        return;
-    }
-    jQuery("#art-hmenu-bg").css({
-        "height": menu.outerHeight() + "px",
-        "top": (menuOffset.top - pageOffset.top) + "px"
-    });
-});
+jQuery(window).bind('resize', (function ($) {
+    "use strict";
+    return function() {
+        var menu = jQuery("nav.art-nav");
+        var menuOffset = menu.offset();
+        var pageOffset = jQuery('#art-main').offset();
+        if (!menuOffset || !pageOffset) {
+            return;
+        }
+        jQuery("#art-hmenu-bg").css({
+            "height": menu.outerHeight() + "px",
+            "top": (menuOffset.top - pageOffset.top) + "px"
+        });
+    };
+})(jQuery));
 
 
 jQuery(function ($) {
-    'use strict';
+    "use strict";
     if (!$.browser.msie || parseInt($.browser.version, 10) > 7) {
         return;
     }
@@ -238,13 +317,13 @@ jQuery(function ($) {
 });
 
 jQuery(function ($) {
-    'use strict';
+    "use strict";
     $("ul.art-hmenu a:not([href])").attr('href', '#').click(function (e) { e.preventDefault(); });
 });
 
 
 jQuery(function ($) {
-    'use strict';
+    "use strict";
     if (!$.browser.msie) {
         return;
     }
@@ -262,7 +341,7 @@ jQuery(function ($) {
         var subitem = null;
         $.each(submenu.children("li").children("a"), function () {
             subitem = $(this);
-            var subitemWidth = subitem.outerWidth();
+            var subitemWidth = subitem.outerWidth(false);
             if (maxSubitemWidth < subitemWidth) {
                 maxSubitemWidth = subitemWidth;
             }
@@ -278,7 +357,7 @@ jQuery(function ($) {
     });
 });
 jQuery(function () {
-    'use strict';
+    "use strict";
     setHMenuOpenDirection({
         container: "div.art-sheet",
         defaultContainer: "#art-main",
@@ -288,8 +367,8 @@ jQuery(function () {
     });
 });
 
-var setHMenuOpenDirection = (function($) {
-    'use strict';
+var setHMenuOpenDirection = (function ($) {
+    "use strict";
     return (function(menuInfo) {
         var defaultContainer = $(menuInfo.defaultContainer);
         defaultContainer = defaultContainer.length > 0 ? defaultContainer = $(defaultContainer[0]) : null;
@@ -297,7 +376,7 @@ var setHMenuOpenDirection = (function($) {
         $("ul." + menuInfo.menuClass + ">li>ul").each(function () {
             var submenu = $(this);
 
-            var submenuWidth = submenu.outerWidth();
+            var submenuWidth = submenu.outerWidth(false);
             var submenuLeft = submenu.offset().left;
 
             var mainContainer = submenu.parents(menuInfo.container);
@@ -306,7 +385,7 @@ var setHMenuOpenDirection = (function($) {
             var container = mainContainer || defaultContainer;
             if (container !== null) {
                 var containerLeft = container.offset().left;
-                var containerWidth = container.outerWidth();
+                var containerWidth = container.outerWidth(false);
 
                 if (submenuLeft + submenuWidth >= containerLeft + containerWidth) {
                     /* right to left */
@@ -320,22 +399,22 @@ var setHMenuOpenDirection = (function($) {
     });
 })(jQuery);
 
-jQuery(function () {
-    jQuery("ul.art-hmenu ul li").hover(function () { jQuery(this).prev().children("a").addClass("art-hmenu-before-hovered"); }, 
-        function () { jQuery(this).prev().children("a").removeClass("art-hmenu-before-hovered"); });
+jQuery(function ($) {
+    $("ul.art-hmenu ul li").hover(function () { $(this).prev().children("a").addClass("art-hmenu-before-hovered"); }, 
+        function () { $(this).prev().children("a").removeClass("art-hmenu-before-hovered"); });
 });
 
 jQuery(function ($) {
     'use strict';
-    jQuery(window).bind('resize', function () {
-        var bh = jQuery('body').height();
+    $(window).bind('resize', function () {
+        var bh = $('body').height();
         var mh = 0;
-        var c = jQuery('div.art-content');
+        var c = $('div.art-content');
         c.removeAttr('style');
 
-        jQuery('#art-main').children().each(function() {
-            if (jQuery(this).css('position') !== 'absolute') {
-                mh += jQuery(this).outerHeight(true);
+        $('#art-main').children().each(function() {
+            if ($(this).css('position') !== 'absolute') {
+                mh += $(this).outerHeight(true);
             }
         });
         
@@ -428,13 +507,23 @@ var Control = (function ($) {
 })(jQuery);
 
 
-var fixRssIconLineHeight = (function (className) {
-    'use strict';
-    jQuery("." + className).css("line-height", jQuery("." + className).height() + "px");
-});
-
 jQuery(function ($) {
     'use strict';
+    $('.art-pager').contents().filter(
+        function () {
+            return this.nodeType === this.TEXT_NODE;
+        }
+    ).remove();
+});
+var fixRssIconLineHeight = (function ($) {
+    "use strict";
+    return function (className) {
+        $("." + className).css("line-height", $("." + className).height() + "px");
+    };
+})(jQuery);
+
+jQuery(function ($) {
+    "use strict";
     var rssIcons = $(".art-rss-tag-icon");
     if (rssIcons.length){
         fixRssIconLineHeight("art-rss-tag-icon");
@@ -518,68 +607,68 @@ var ThemeLightbox = (function ($) {
     'use strict';
     return (function () {
         var current;
-        var images = $("img.art-lightbox");
-
-        var b = $("body");
+        var images = $(".art-lightbox");
 
         this.init = function (ctrl) {
-            $("img.art-lightbox").live("click", { _ctrl: ctrl }, function (e) {
+            $(".art-lightbox").live("click", { _ctrl: ctrl }, function (e) {
 
                 if (e.data._ctrl === true && !e.ctrlKey) {
                     return;
                 }
-
+                
                 reload();
                 current = images.index(this);
                 show(this);
             });
 
-            $(".arrow.left:not(.disabled)").live("click", function () {
+            $(".art-lightbox-wrapper .arrow.left:not(.disabled)").live("click", function () {
                 move(current - 1);
             });
 
-            $(".arrow.right:not(.disabled)").live("click", function () {
+            $(".art-lightbox-wrapper .arrow.right:not(.disabled)").live("click", function () {
                 move(current + 1);
             });
 
-            $("img.active").live("click", function () {
+            $(".art-lightbox-wrapper .active").live("click", function () {
                 move(current + 1);
             });
 
-            $(".close").live("click", function () {
+            $(".art-lightbox-wrapper .close").live("click", function () {
                 close();
             });
         };
 
         function show(src) {
-            var d = $('<div id="art-lightbox-bg"><div class="close"><div class="cw"> </div><div class="ccw"> </div><div class="close-alt">&#10007;</div></div></div>');
+            var closeBtn = $('<div class="close"><div class="cw"> </div><div class="ccw"> </div><div class="close-alt">&#10007;</div></div>')
+                .click(close);
 
-            var img = $('<img class="art-lightbox-image active" alt="" src="' + getFullImgSrc($(src).attr("src")) + '" />');
+            var imgContainer = $('.art-lightbox-wrapper');
+            if (imgContainer.length === 0) {
+                imgContainer = $('<div class="art-lightbox-wrapper">').css('line-height', $(window).height() + "px")
+                    .appendTo($("body"));
+            }
+            
+            var img = $('<img class="art-lightbox-image active" src="' + getFullImgSrc($(src).attr("src")) + '">');
+            img.appendTo(imgContainer);
 
-            resizeOnLoad(img);
-            img.appendTo(b);
             showArrows();
-
+            closeBtn.appendTo(imgContainer);
             showLoader(true);
 
             img.load(function () {
                 showLoader(false);
-                d.appendTo(b).height(Math.max(document.documentElement.scrollHeight, document.body.scrollHeight));
             });
 
             img.error(function () {
                 showLoader(false);
-                d.appendTo(b).height(Math.max(document.documentElement.scrollHeight, document.body.scrollHeight));
-
-                //showError(true);
                 img.attr("src", $(src).attr("src"));
             });
-            d.click(close);
-            bindMouse($(".arrow").add(img).add(d));
+
+            bindMouse($(".art-lightbox-wrapper .arrow").add(img).add(imgContainer));
         }
 
         function reload() {
-            images = $("img.art-lightbox");
+            images = $(".art-lightbox");
         }
 
         function move(index) {
@@ -591,19 +680,17 @@ var ThemeLightbox = (function ($) {
 
             current = index;
 
-            $("img.art-lightbox-image:not(.active)").remove();
+            $(".art-lightbox-wrapper .art-lightbox-image:not(.active)").remove();
 
-            var active = $("img.active");
-
+            var active = $(".art-lightbox-wrapper .active");
             var target = $('<img class="art-lightbox-image" alt="" src="' + getFullImgSrc($(images[current]).attr("src")) + '" />');
 
-            resizeOnLoad(target);
             active.after(target);
 
             showArrows();
             showLoader(true);
 
-            bindMouse($("#art-lightbox-bg").add(target));
+            bindMouse($(".art-lightbox-wrapper").add(target));
 
             target.load(function () {
                 showLoader(false);
@@ -614,8 +701,6 @@ var ThemeLightbox = (function ($) {
 
             target.error(function () {
                 showLoader(false);
-
-                //showError(true);
                 active.removeClass("active");
                 target.addClass("active");
                 target.attr("src", $(images[current]).attr("src"));
@@ -623,74 +708,45 @@ var ThemeLightbox = (function ($) {
         }
 
         function showArrows() {
-            if ($(".arrow").length === 0) {
-                b.append($('<div class="arrow left"><div class="arrow-t ccw"> </div><div class="arrow-b cw"> </div><div class="arrow-left-alt">&#8592;</div></div>').css("top", $(window).height() / 2 - 40));
-
-                b.append($('<div class="arrow right"><div class="arrow-t cw"> </div><div class="arrow-b ccw"> </div><div class="arrow-right-alt">&#8594;</div></div>').css("top", $(window).height() / 2 - 40));
+            if ($(".art-lightbox-wrapper .arrow").length === 0) {
+                $(".art-lightbox-wrapper").append($('<div class="arrow left"><div class="arrow-t ccw"> </div><div class="arrow-b cw"> </div><div class="arrow-left-alt">&#8592;</div></div>').css("top", $(window).height() / 2 - 40));
+                $(".art-lightbox-wrapper").append($('<div class="arrow right"><div class="arrow-t cw"> </div><div class="arrow-b ccw"> </div><div class="arrow-right-alt">&#8594;</div></div>').css("top", $(window).height() / 2 - 40));
             }
 
             if (current === 0) {
-                $(".arrow.left").addClass("disabled");
+                $(".art-lightbox-wrapper .arrow.left").addClass("disabled");
             } else {
-                $(".arrow.left").removeClass("disabled");
+                $(".art-lightbox-wrapper .arrow.left").removeClass("disabled");
             }
 
             if (current === images.length - 1) {
-                $(".arrow.right").addClass("disabled");
+                $(".art-lightbox-wrapper .arrow.right").addClass("disabled");
             } else {
-                $(".arrow.right").removeClass("disabled");
+                $(".art-lightbox-wrapper .arrow.right").removeClass("disabled");
             }
         }
 
         function showError(enable) {
             if (enable) {
-                b.append($('<div class="lightbox-error">The requested content cannot be loaded.<br/>Please try again later.</div>')
+                $(".art-lightbox-wrapper").append($('<div class="lightbox-error">The requested content cannot be loaded.<br/>Please try again later.</div>')
                         .css({ "top": $(window).height() / 2 - 60, "left": $(window).width() / 2 - 170 }));
             } else {
-                $(".lightbox-error").remove();
+                $(".art-lightbox-wrapper .lightbox-error").remove();
             }
         }
 
         function showLoader(enable) {
             if (!enable) {
-                $(".loading").remove();
+                $(".art-lightbox-wrapper .loading").remove();
             }
             else {
-                $('<div class="loading"> </div>').css({ "top": $(window).height() / 2 - 16, "left": $(window).width() / 2 - 16 }).appendTo(b);
+                $('<div class="loading"> </div>').css({ "top": $(window).height() / 2 - 16, "left": $(window).width() / 2 - 16 }).appendTo($(".art-lightbox-wrapper"));
             }
         }
 
         var close = function () {
-            $("#art-lightbox-bg, .art-lightbox-image, .arrow, .lightbox-error").remove();
+            $(".art-lightbox-wrapper").remove();
         };
-
-        function resizeOnLoad(img) {
-            var width = $(window).width();
-            var height = $(window).height();
-
-            img.load(function () {
-                var imgHeight = $(this).height();
-                var imgWidth = $(this).width();
-
-                // additional space is needed for the next|prev items and border around the images
-                if (height < (imgHeight + 10) || width < (imgWidth + 410)) {
-                    var hScale = Math.abs(imgWidth / (width - 410));
-                    var vScale = Math.abs(imgHeight / (height - 100));
-
-                    var scale = Math.max(vScale, hScale);
-
-                    imgWidth = imgWidth / scale;
-                    imgHeight = imgHeight / scale;
-
-                    img.width(imgWidth);
-                    img.height(imgHeight);
-                }
-
-                img.css({ "top": (height / 2 - imgHeight / 2) - 5, "left": (width / 2 - imgWidth / 2 - 5) });
-            });
-
-            return img;
-        }
 
         function bindMouse(img) {
             img.unbind("wheel").mousewheel(function (event, delta) {
@@ -709,11 +765,6 @@ var ThemeLightbox = (function ($) {
         }
 
         function getFullImgSrc(src) {
-            var webArchiveRegex = new RegExp("http://www.[A-z0-9-]+-image.com/.webarchive/");
-            if ((src.indexOf("http://") === 0 || src.indexOf("https://") === 0) && !webArchiveRegex.test(src)) {
-                return src;
-            }
-
             var fileName = src.substring(0, src.lastIndexOf('.'));
             var ext = src.substring(src.lastIndexOf('.'));
             src = fileName + "-large" + ext;
@@ -723,10 +774,12 @@ var ThemeLightbox = (function ($) {
 
     });
 })(jQuery);
+
 jQuery(function () {
     'use strict';
     new ThemeLightbox().init();
 });
+
 (function($) {
     'use strict';
     // transition && transitionEnd && browser prefix
@@ -773,6 +826,7 @@ jQuery(function () {
         var motion = "horizontal";
         var width = 0;
         var height = 0;
+        var multiplier = 1;
         var transitionDuration = "";
 
         this.init = function(motionType, dir, duration) {
@@ -781,12 +835,12 @@ jQuery(function () {
             slides = [];
             width = 0;
             height = 0;
+            multiplier = 1;
             transitionDuration = duration;
         };
 
-        this.processSlide = function(element) {
-            width = element.outerWidth();
-            height = element.outerHeight();
+        this.processSlide = function(element, modify) {
+            this.updateSize(element, null);
             var pos = [];
 
             var bgPosition = element.css("background-position");
@@ -803,18 +857,37 @@ jQuery(function () {
 
             slides.push({
                 "images": element.css("background-image"),
+                "sizes": element.css("background-size"),
                 "positions": pos
             });
-            element.css("background-image", "none");
+            
+            if (modify)
+                element.css("background-image", "none");
+        };
+        
+        this.updateSize = function (element, initialSize) {
+            width = element.outerWidth(false);
+            height = element.outerHeight();
+            if (initialSize && parseInt(initialSize.width, 10) !== 0) {
+                multiplier = width / initialSize.width;
+                if (motion === "fade") {
+                    $.each(element.children(), function (i) {
+                        $(this).css("background-position", getCssPositions(slides[i].positions, { x: 0, y: 0 }));
+                    });
+                }
+            }
         };
 
         this.setBackground = function(element, items) {
             var bg = [];
+            var sizes = [];
             $.each(items, function (i, o) {
                 bg.push(o.images);
+                sizes.push(o.sizes);
             });
             element.css({
                 "background-image": bg.join(", "),
+                "background-size": sizes.join(", "),
                 "background-repeat": "no-repeat"
             });
         };
@@ -867,10 +940,10 @@ jQuery(function () {
             }
             var result = [ ];
             if (!!prev) {
-                result.push({ images: prev.images, positions: getCssPositions(prev.positions, prevItem) });
+                result.push({ images: prev.images, positions: getCssPositions(prev.positions, prevItem), sizes: prev.sizes });
             }
             if (!!next) {
-                result.push({ images: next.images, positions: getCssPositions(next.positions, nextItem) });
+                result.push({ images: next.images, positions: getCssPositions(next.positions, nextItem), sizes: next.sizes });
             }
             
             if (direction === "next") {
@@ -892,7 +965,7 @@ jQuery(function () {
             offset.x = offset.x || 0;
             offset.y = offset.y || 0;
             for (var i = 0; i < positions.length; i++) {
-                result.push((positions[i].x + offset.x) + "px " + (positions[i].y + offset.y) + "px");
+                result.push((positions[i].x * multiplier + offset.x) + "px " + (positions[i].y * multiplier + offset.y) + "px");
             }
             return result.join(", ");
         }
@@ -1092,21 +1165,28 @@ jQuery(function ($) {
     var path = "";
     var scripts = $("script[src*='script.js']");
     if (scripts.length > 0) {
-        var src = scripts.get(0).src;
+        var src = scripts.last().attr('src');
         path = src.substr(0, src.indexOf("script.js"));
     }
-    var header = $(".art-header");
-    var bgimages = "".split(",");
-    var bgpositions = "".split(",");
-    for (var i = 0; i < bgimages.length; i++) {
-        var bgimage = $.trim(bgimages[i]);
-        if (bgimage === "")
-            continue;
-        if (path !== "") {
-            bgimage = bgimage.replace(/(url\(['"]?)/i, "$1" + path);
-        }
-        header.find(".art-shapes").prepend("<div style=\"position:absolute;top:0;left:0;width:100%;height:100%;background:" + bgimage + " " + bgpositions[i] + " no-repeat\">");
-    }
-    header.css('background-image', "url('images/header.jpg')".replace(/(url\(['"]?)/i, "$1" + path));
-    header.css('background-position', "0 0");
+    processHeaderMultipleBg(path);
 });
+
+var processHeaderMultipleBg = (function ($) {
+    "use strict";
+    return (function (path) {
+        var header = $(".art-header");
+        var bgimages = "".split(",");
+        var bgpositions = "".split(",");
+        for (var i = bgimages.length - 1; i >= 0; i--) {
+            var bgimage = $.trim(bgimages[i]);
+            if (bgimage === "")
+                continue;
+            if (path !== "") {
+                bgimage = bgimage.replace(/(url\(['"]?)/i, "$1" + path);
+            }
+            header.append("<div style=\"position:absolute;top:0;left:0;width:100%;height:100%;background:" + bgimage + " " + bgpositions[i] + " no-repeat\">");
+        }
+        header.css('background-image', "url('images/header.jpg')".replace(/(url\(['"]?)/i, "$1" + path));
+        header.css('background-position', "0 0");
+    });
+})(jQuery);
