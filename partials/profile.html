@@ -2,18 +2,18 @@
 <p class="notice">Complete all that apply (required fields are in bold):</p>
   <div class="tel-tabular">
     <div>
-      <label for="firstname" class="required">First name:</label><input id="firstname" name="profile[firstname]" required="required" />
-      <label for="lastname" class="required">Last name:</label><input id="lastname" name="profile[lastname]" required="required" />
+      <label for="firstname" class="required">First name:</label><input id="firstname" name="profile[firstname]" required />
+      <label for="lastname" class="required">Last name:</label><input id="lastname" name="profile[lastname]" required />
     </div>
     <div><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></div>
     <div class="tel-fieldset">
       <div class="tel-legend"><div>Company</div></div>
       <div>
-        <label for="company-name" class="required">Company Name:</label><input name="profile[company]" id="company-name" placeholder="Name the government knows you by" required="required" />
+        <label for="company-name" class="required">Company Name:</label><input name="profile[company]" id="company-name" placeholder="Name the government knows you by" required />
         <label for="company-dba">Doing Business As:</label><input name="profile[company_dba]" id="company-dba" placeholder="Name customers know you by" />
       </div>
       <div>
-        <label for="website" class="required">Website:</label><input type="url" name="profile[website]" id="website" placeholder="http://my.company.com/" required="required" />
+        <label for="website" class="required">Website:</label><input type="url" name="profile[website]" id="website" placeholder="http://my.company.com/" required />
         <label for="num-emp"># of Employees:</label>
         <span><span>
           <select name="profile[num_emp]" id="num-emp">
@@ -37,11 +37,11 @@
     <div class="tel-fieldset">
       <div class="tel-legend"><div>Your Office</div></div>
       <div>
-        <label for="street" class="required">Street:</label><input name="profile[address1]" id="street" required="required" />
-        <label for="phone" class="required">Phone:</label><input name="profile[phone]" id="phone" required="required" />
+        <label for="street" class="required">Street:</label><input name="profile[address1]" id="street" required />
+        <label for="phone" class="required">Phone:</label><input name="profile[phone]" id="phone" required />
       </div>
       <div>
-        <label for="city" class="required">City:</label><input name="profile[city]" id="city" required="required" />
+        <label for="city" class="required">City:</label><input name="profile[city]" id="city" required />
         <label for="fax">Fax:</label><input name="profile[fax]" id="fax" />
       </div>
       <div>
@@ -49,7 +49,7 @@
         <input id="state" name="profile[state_name]" />
         <label for="zip" class="required">Postal Code/Zip:</label>
         <span><span>
-          <input name="profile[zipcode]" id="zip" class="tel-zip" required="required" />
+          <input name="profile[zipcode]" id="zip" class="tel-zip" required />
           <label for="country" class="required">Country:</label><input id="country" class="tel-country" name="profile[country]" />
         </span></span>
       </div>
@@ -99,7 +99,13 @@
   <div class="tel-tabular">
     <div><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></div>
     <div class="tel-fieldset">
-      <div class="tel-legend"><div>Make Check Payable To (Choose One)</div></div>
+      <div class="tel-legend"><div>Pay to</div></div>
+      <div>
+        <ol>
+          <li><input type="radio" name="profile[payee]" id="company" value="company" required /><label for="company">Company</label></li>
+          <li>Individual</li>
+        </ol>
+      </div>
       <div>
         <label for="ein">Company's Employer Identification Number:</label><input name="profile[ein]" id="ein" pattern="[0-9]{2}-[0-9]{7}" title="xx-xxxxxxx" placeholder="xx-xxxxxxx" /><span>&nbsp;</span><span>&nbsp;</span>
       </div>
@@ -109,7 +115,7 @@
     </div>
     <div><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></div>
     <div>
-      <label for="authorized" class="required">Person authorized to change "pay-to" info for commissions:</label><input name="profile[authorized]" id="authorized" required="required" /><span class="slug">&nbsp;</span><span class="slug">&nbsp;</span>
+      <label for="authorized" class="required">Person authorized to change "pay-to" info for commissions:</label><input name="profile[authorized]" id="authorized" required /><span class="slug">&nbsp;</span><span class="slug">&nbsp;</span>
     </div>
   </div>
   <div class="tel-tabular">
@@ -118,7 +124,7 @@
         <dt class="required">Company Type:</dt>
         <dd>
           <ol>
-            <li><input type="radio" name="profile[biz_type]" id="consultant" value="consultant" required="required" /><label for="consultant">IT Consultant</label></li>
+            <li><input type="radio" name="profile[biz_type]" id="consultant" value="consultant" required /><label for="consultant">IT Consultant</label></li>
             <li><input type="radio" name="profile[biz_type]" id="var" value="var" /><label for="var">Value-Added Reseller</label></li>
             <li><input type="radio" name="profile[biz_type]" id="corporate" value="corporate" /><label for="corporate">Corporate</label></li>
             <li><input type="radio" name="profile[biz_type]" id="exchange" value="exchange" /><label for="exchange">MS Exchange Service Provider</label></li>

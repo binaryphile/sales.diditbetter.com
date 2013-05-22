@@ -1,6 +1,6 @@
 ---
 title: Home
-description: The DidItBetter.com Sales and Marketing site
+description: Referral and Affiliate Program Information for DidItBetter.com Partners
 manual-post: true
 tabs: true
 tooltips: true

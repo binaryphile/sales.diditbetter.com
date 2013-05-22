@@ -35,5 +35,5 @@ PartnerPrograms @ diditbetter.com or download the [reseller kit].
 *Are any of your customers ready to benefit from hosted solutions? Ask
 us about Hosted Solutions Authorized Reseller Program.*
 
-[reseller kit]: /DidItBetterAuthorizedResellerProgram.pdf 
+[reseller kit]: /diditbetter-authorized-reseller-program.pdf
 
