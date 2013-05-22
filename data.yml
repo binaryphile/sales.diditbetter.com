@@ -15,3 +15,7 @@ jqueryui:
 
 no-chat: false
 
+canonical: true
+
+production_url: http://sales.diditbetter.com
+

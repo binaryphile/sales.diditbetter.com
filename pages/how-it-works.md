@@ -197,12 +197,12 @@ check. 
 {: .signup}
 
 [our website]: http://www.diditbetter.com/ 
-[signup process]: /referral-signup
+[signup process]: /referral-signup/
 [Download]: {{urls.media}}/download-button-2.png
 [product descriptions]: http://www.diditbetter.com/products.aspx
 [Cart Referral]: {{urls.media}}/cart-referral.png
 [Email]: {{urls.media}}/email.png
 [Your account]: {{urls.media}}/your-account.png
-[Sign up now!]: /referral-signup
+[Sign up now!]: /referral-signup/
 [Go to store]: http://store.diditbetter.com/
 

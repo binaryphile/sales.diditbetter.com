@@ -17,6 +17,9 @@
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
   <link rel="shortcut icon" href="{{urls.media}}/favicon.ico" />
+  {{#data.canonical}}
+  <link rel="canonical" href="{{data.production_url}}{{page.url}}" />
+  {{/data.canonical}}
 {{#data.rss}}
   <link rel="alternate" type="application/rss+xml" title="{{ title }}" href="{{ href }}" />
 {{/data.rss}}
