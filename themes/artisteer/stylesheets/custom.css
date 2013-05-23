@@ -28,7 +28,8 @@ input#num-emp {
 .tel-tabular > div > input, .tel-tabular > div > label,
 .tel-tabular > div > span, .tel-tabular > div > dl,
 .tel-tabular > li > input, .tel-tabular > li > label,
-.tel-tabular > li > span, .tel-tabular > li > dl {
+.tel-tabular > li > span, .tel-tabular > li > dl,
+.tel-tabular > div > ol, .tel-tabular > .tel-fieldset > div > ol {
     display: table-cell;
 }
 .tel-fieldset > div:nth-child(2) > *:first-child {
@@ -91,15 +92,11 @@ input#num-emp {
     padding-right: 0.3em;
     padding-bottom: 1.2em;
 }
-.tel-fieldset > div > label:first-child,
-.tel-fieldset > div > dl:first-child {
+.tel-fieldset > div > :first-child {
     padding-left: 0.3em;
 }
-.tel-tabular dl ol {
+.tel-tabular dl ol, .tel-tabular .tel-fieldset ol {
   list-style: none;
-}
-dt {
-  font-weight: bold;
 }
 .slug {
   width: 13em;
