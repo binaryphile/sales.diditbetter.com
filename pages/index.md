@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Referral and Affiliate Program Information for DidItBetter.com Partners
+description: Referral and Affiliate Program Information for DidItBetter.com Partners.  Find out how to earn commissions on referrals for our Exchange synchronization products.
 manual-post: true
 tabs: true
 tooltips: true
