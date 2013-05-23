@@ -155,7 +155,7 @@ textarea {
   border: 0px solid #CCC;    
   overflow:hidden;
   clear:both;
-  height: 700px;
+  min-height: 607px;
 }
 
 #wizard .stepContainer div.content {

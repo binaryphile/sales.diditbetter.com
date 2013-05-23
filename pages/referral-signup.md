@@ -9,7 +9,7 @@ scripts:
 
 ### Referral Partner Program Signup
 
-<form action="http://fides.binaryphile.com:3000/dibs-referral-profile" method="post" target="_blank">
+<form action="https://store.diditbetter.com/dibs-referral-profile" method="post" target="_blank">
 <div id="wizard" class="swMain" markdown="1">
 * [<label class="stepNumber">1</label>
   <span class="stepDesc">
