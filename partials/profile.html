@@ -101,14 +101,20 @@
     <div class="tel-fieldset">
       <div class="tel-legend"><div>Pay to</div></div>
       <div>
-        <ol>
-          <li><input type="radio" name="profile[payee]" id="company" value="company" required /><label for="company">Company</label></li>
-          <li><input type="radio" name="profile[payee]" id="individual" value="individual" /><label for="individual">Individual</label></li>
-        </ol>
-        <ol>
-          <li><label for="tax-id" class="required">SSN, EIN or personal/corporate Tax ID for your country:</label><input name="profile[tax_id]" id="tax-id" required /></li>
-          <li><label for="authorized" class="required">Person authorized to change "pay-to" info for commissions:</label><input name="profile[authorized]" id="authorized" required /></li>
-        </ol>
+        <span>&nbsp;</span>
+        <span><span>
+        <input type="radio" name="profile[payee]" id="company" value="company" required />
+          <label for="company" class="required">Company</label>
+        <input type="radio" name="profile[payee]" id="individual" value="individual" />
+          <label for="individual" class="required">Individual</label>
+        </span></span>
+      </div>
+      <div><span>&nbsp;</span><span>&nbsp;</span></div>
+      <div>
+        <label for="tax-id" class="required">SSN, EIN or personal/corporate Tax ID for your country:</label><input name="profile[tax_id]" id="tax-id" required />
+      </div>
+      <div>
+        <label for="authorized" class="required">Person authorized to change "pay-to" info for commissions:</label><input name="profile[authorized]" id="authorized" required />
       </div>
     </div>
     <div><span>&nbsp;</span><span>&nbsp;</span></div>
