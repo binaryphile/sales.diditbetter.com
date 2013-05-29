@@ -9,6 +9,15 @@ scripts:
 
 ### Referral Partner Program Signup
 
+The following steps will walk you through the signup process.  At times
+you will be asked to open a new window by clicking a button.  Whenever
+you do, <span class="notice">you'll need to close the new window when
+you're done in order to come back here and continue the process</span>.
+
+At the end of the process, you'll be taken to another page that will
+give you some options for how to learn more or get started with
+referring customers.
+
 <form action="https://store.diditbetter.com/dibs-referral-profile" method="post" target="_blank">
 <div id="wizard" class="swMain" markdown="1">
 * [<label class="stepNumber">1</label>

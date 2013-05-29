@@ -15,38 +15,49 @@ input#num-emp {
   width: 5em;
 }
 /* Basic tabular structure */
-.tel-tabular {
+.responsive .tel-tabular label:before,
+.responsive .tel-tabular label:after {
+  content: '\A';
+  white-space: pre;
+}
+.responsive .tel-tabular input[type="radio"]~label:before,
+.responsive .tel-tabular input[type="radio"]~label:after,
+.responsive .tel-tabular input[type="checkbox"]~label:before,
+.responsive .tel-tabular input[type="checkbox"]~label:after {
+  content: '';
+}
+.desktop .tel-tabular {
     border-collapse: collapse;
     margin-bottom: 1em;
     display: table;
     width: 100%;
 }
-.tel-tabular > div, .tel-tabular > li {
+.desktop .tel-tabular > div, .desktop .tel-tabular > li {
     display: table-row-group;
     width: 100%;
 }
-.tel-tabular > div > input, .tel-tabular > div > label,
-.tel-tabular > div > span, .tel-tabular > div > dl,
-.tel-tabular > li > input, .tel-tabular > li > label,
-.tel-tabular > li > span, .tel-tabular > li > dl,
-.tel-tabular > div > ol {
+.desktop .tel-tabular > div > input, .desktop .tel-tabular > div > label,
+.desktop .tel-tabular > div > span, .desktop .tel-tabular > div > dl,
+.desktop .tel-tabular > li > input, .desktop .tel-tabular > li > label,
+.desktop .tel-tabular > li > span, .desktop .tel-tabular > li > dl,
+.desktop .tel-tabular > div > ol {
     display: table-cell;
 }
-.tel-fieldset > div:nth-child(2) > *:first-child {
+.desktop .tel-fieldset > div:nth-child(2) > *:first-child {
   padding-top: 1em;
 }
 .tel-tabular input {
     margin-right: 1em;
     width: 20em;
 }
-.tel-tabular input[type=radio], .tel-tabular input[type=checkbox] {
+.tel-tabular input[type="radio"], .tel-tabular input[type="checkbox"] {
   width: auto;
 }
-.tel-tabular label {
+.desktop .tel-tabular label {
     text-align: right;
 }
 /* Extended cells */
- .tel-tabular > div > span > span, .tel-tabular > li > span > span {
+.desktop .tel-tabular > div > span > span, .desktop .tel-tabular > li > span > span {
     display: inline-block;
     width: 0;
     white-space: nowrap;
@@ -60,17 +71,19 @@ input#num-emp {
 /* Mock fieldsets */
 .tel-fieldset {
     border: 1px solid;
+    padding-left: 1em;
+    padding-top: 1em;
 }
-.tel-fieldset > div {
+.desktop .tel-fieldset > div {
     display: table-row;
     padding-right: 0;
 }
-.tel-fieldset > div > input, .tel-fieldset > div > label,
-.tel-fieldset > div > span, .tel-fieldset > div > dl,
-.tel-tabular > .tel-fieldset > div > ol {
+.desktop .tel-fieldset > div > input, .desktop .tel-fieldset > div > label,
+.desktop .tel-fieldset > div > span, .desktop .tel-fieldset > div > dl,
+.desktop .tel-tabular > .tel-fieldset > div > ol {
     display: table-cell;
 }
-.tel-fieldset > div > span > span {
+.desktop .tel-fieldset > div > span > span {
     display: inline-block;
     width: 0;
     white-space: nowrap;
@@ -80,9 +93,9 @@ input#num-emp {
     display: block;
     font-weight: bold;
 }
-.tel-legend > div {
+.tel-fieldset .tel-legend > div {
     position: absolute;
-    top: -0.74em;
+    top: -1.74em;
     left: 0.6em;
     display: block;
     background: white;
@@ -102,8 +115,10 @@ input#num-emp {
 .slug {
   width: 13em;
 }
-.tel-comp-desc {
+.desktop .tel-comp-desc {
   width: 56.3em;
+}
+.tel-comp-desc {
   margin-bottom: 1em;
   border-color: #ABADB3;
 }
@@ -118,6 +133,7 @@ input#num-emp {
   font-weight: inherit;
   font-style: inherit;
   border: 1px solid gray;
+  margin-bottom: 0.5em;
 }
 .tel-tabular input[type="number"].no-spin::-webkit-outer-spin-button,
 .tel-tabular input[type="number"].no-spin::-webkit-inner-spin-button {
@@ -128,7 +144,7 @@ input#num-emp {
   font-weight: bold;
 }
 textarea {
-  width: 100%;
+  width: 98%;
 }
 /*
   SmartWizard 2.0 plugin
@@ -138,7 +154,7 @@ textarea {
   http://www.techlaboratory.net
   http://tech-laboratory.blogspot.com
 */
-#wizard {
+.desktop #wizard {
   position:relative;
   display:block;
   margin:0;
@@ -148,7 +164,7 @@ textarea {
   float:left;
   width:980px;
 }
-#wizard .stepContainer {
+.desktop #wizard .stepContainer {
   display:block;
   position: relative;
   margin: 0;
@@ -159,7 +175,7 @@ textarea {
   min-height: 607px;
 }
 
-#wizard .stepContainer div.content {
+.desktop #wizard .stepContainer div.content {
   display:block;
   position: absolute;
   float:left;
@@ -178,7 +194,7 @@ textarea {
   clear:both;
 }
 
-#wizard div.actionBar {
+.desktop #wizard div.actionBar {
   display:block;
   position: relative;
   clear:both;
@@ -197,7 +213,7 @@ textarea {
   left:0;
 }
 
-#wizard .stepContainer .StepTitle {
+.desktop #wizard .stepContainer .StepTitle {
   display:block;
   position: relative;
   margin:0;
@@ -212,7 +228,7 @@ textarea {
   -webkit-border-radius: 5px;
   -moz-border-radius  : 5px;
 }
-#wizard ul.anchor {
+.desktop #wizard ul.anchor {
   position: relative;
   display:block;
   float:left;
@@ -223,7 +239,7 @@ textarea {
   border: 0px solid #CCCCCC;
   background: transparent; /*#EEEEEE */
 }
-#wizard ul.anchor li{
+.desktop #wizard ul.anchor li{
   background-image: none;
   position: relative;
   display:block;
@@ -235,7 +251,7 @@ textarea {
   float: left;
 }
 /* Anchor Element Style */
-#wizard ul.anchor li a {
+.desktop #wizard ul.anchor li a {
   display:block;
   position:relative;
   float:left;
@@ -249,7 +265,7 @@ textarea {
   -webkit-border-radius: 5px;
   z-index:99;
 }
-#wizard ul.anchor li a .stepNumber{
+.desktop #wizard ul.anchor li a .stepNumber{
   position:relative;
   float:left;
   width:30px;
@@ -258,7 +274,7 @@ textarea {
   padding-top:0;
   font: bold 45px Verdana, Arial, Helvetica, sans-serif;
 }
-#wizard ul.anchor li a .stepDesc{
+.desktop #wizard ul.anchor li a .stepDesc{
   position:relative;
   display:block;
   float:left;
@@ -267,53 +283,53 @@ textarea {
 
   font: bold 20px Verdana, Arial, Helvetica, sans-serif;
 }
-#wizard ul.anchor li a .stepDesc small{
+.desktop #wizard ul.anchor li a .stepDesc small{
   font: normal 12px Verdana, Arial, Helvetica, sans-serif;
 }
-#wizard ul.anchor li a.selected{
+.desktop #wizard ul.anchor li a.selected{
   color:#F8F8F8;
   background: #EA8511;  /* EA8511 */
   border: 1px solid #EA8511;
   cursor:text;
 }
-#wizard ul.anchor li a.selected:hover {
+.desktop #wizard ul.anchor li a.selected:hover {
   color:#F8F8F8;
   background: #EA8511;
 }
 
-#wizard ul.anchor li a.done {
+.desktop #wizard ul.anchor li a.done {
   position:relative;
   color:#FFF;
   background: #7DAED4;
   border: 1px solid #7DAED4;
   z-index:99;
 }
-#wizard ul.anchor li a.done:hover {
+.desktop #wizard ul.anchor li a.done:hover {
   color:#5A5655;
   background: #7DAED4;
   border: 1px solid #5A5655;
 }
-#wizard ul.anchor li a.disabled {
+.desktop #wizard ul.anchor li a.disabled {
   color:#CCCCCC;
   background: #F8F8F8;
   border: 1px solid #CCC;
   cursor:text;
 }
-#wizard ul.anchor li a.disabled:hover {
+.desktop #wizard ul.anchor li a.disabled:hover {
   color:#CCCCCC;
   background: #F8F8F8;
 }
 
-#wizard ul.anchor li a.error {
+.desktop #wizard ul.anchor li a.error {
   color:#6c6c6c !important;
   background: #f08f75 !important;
   border: 1px solid #fb3500 !important;
 }
-#wizard ul.anchor li a.error:hover {
+.desktop #wizard ul.anchor li a.error:hover {
   color:#000 !important;
 }
 
-#wizard .buttonNext {
+.desktop #wizard .buttonNext {
   display:block;
   float:right;
   margin:5px 3px 0 3px;
@@ -329,13 +345,13 @@ textarea {
   -moz-border-radius  : 5px;
   -webkit-border-radius: 5px;
 }
-#wizard .buttonDisabled {
+.desktop #wizard .buttonDisabled {
   color:#F8F8F8  !important;
   background-color: #CCCCCC !important;
   border: 1px solid #CCCCCC  !important;
   cursor:text;
 }
-#wizard .buttonPrevious {
+.desktop #wizard .buttonPrevious {
   display:block;
   float:right;
   margin:5px 3px 0 3px;
@@ -351,7 +367,7 @@ textarea {
   -moz-border-radius  : 5px;
   -webkit-border-radius: 5px;
 }
-#wizard .buttonFinish {
+.desktop #wizard .buttonFinish {
   display:block;
   float:right;
   margin:5px 10px 0 3px;
@@ -436,15 +452,15 @@ textarea {
 
 /* Add wide layout template */
 
-body.wide {
+.desktop body.wide {
   min-width: 1000px;
 }
 
-body.wide .art-sheet {
+.desktop body.wide .art-sheet {
   width: 1000px;
 }
 
-body.wide .art-foot-inner {
+.desktop body.wide .art-foot-inner {
   width: 1000px;
 }
 

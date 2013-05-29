@@ -1,18 +1,11 @@
 ## Create An Account
 {: .StepTitle}
 
-The following steps will walk you through the signup process.  At times
-you will be asked to open a new window by clicking a button.  Whenever
-you do, you'll need to close the window when you're done in order to
-come back here and continue the process.
-
-At the end of the process, you'll be taken to another page that will
-give you some options for how to learn more or get started with
-referring customers.
+<div id="all" markdown="1">
 
 Do you have an account on store.diditbetter.com yet?
 
-Yes
+<input type="radio" name="create-account" id="yes" style="display: none; " /><label for="yes">Yes</label>
 
 : We'll help you login, if you aren't already logged in.
 
@@ -22,9 +15,9 @@ Yes
 
 : Sign in if you need to, then close the window and continue here.
   
-: [Go to Login Page](https://store.diditbetter.com/login){: target="_blank" .art-button}
+: [Go to Login Page](https://store.diditbetter.com/login){: target="_blank" .art-button .show-hidden}
 
-No
+<input type="radio" name="create-account" id="no" style="display: none;" /><label for="no">No</label>
 
 : We'll help you visit the account creation page on our store in order
   to make your account.
@@ -32,7 +25,10 @@ No
 : This button will open a new window. Create your account, then close
   the window to return here.
 
-: [Go to Registration Page](https://store.diditbetter.com/signup){: target="_blank" .art-button}
+: [Go to Registration Page](https://store.diditbetter.com/signup){: target="_blank" .art-button .show-hidden}
+
+</div>
+<div id="hidden" markdown="1">
 
 Next, we'll help you request the Referral role for your store account.
 
@@ -40,6 +36,8 @@ This button will open a new window.  It will take you to the _My
 Account_ page, which should tell you that you've been given the Referral
 role.
 
-When finished, close the window to return here.
+When finished, close the window to return here, then click _Next_.
 
 [Request the Referral Role](https://store.diditbetter.com/dibs-referral-request){: target="_blank" .art-button}
+
+</div>
