@@ -69,10 +69,13 @@ input#num-emp {
   width: 9.8em;
 }
 /* Mock fieldsets */
+.responsive .tel-legend:after {
+  content: '\A';
+  white-space: pre;
+}
 .tel-fieldset {
     border: 1px solid;
     padding-left: 1em;
-    padding-top: 1em;
 }
 .desktop .tel-fieldset > div {
     display: table-row;
@@ -88,14 +91,14 @@ input#num-emp {
     width: 0;
     white-space: nowrap;
 }
-.tel-fieldset .tel-legend {
+.tel-tabular .tel-fieldset .tel-legend {
     position: relative;
     display: block;
     font-weight: bold;
 }
 .tel-fieldset .tel-legend > div {
     position: absolute;
-    top: -1.74em;
+    top: -0.74em;
     left: 0.6em;
     display: block;
     background: white;
