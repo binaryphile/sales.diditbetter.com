@@ -19,6 +19,6 @@ familiarize yourself with our products and support.
 
 [1]: https://store.diditbetter.com/login
 [2]: http://www.diditbetter.com/products.aspx
-[3]: /referral-program-details/index.html#getting-started
+[3]: /referral-program-details/#getting-started
 [4]: http://support.diditbetter.com/
 
