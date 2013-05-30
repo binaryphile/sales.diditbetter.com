@@ -29,8 +29,8 @@ $(document).ready(function(){
   $("#yes").parent().nextUntil("dt").toggle();
   $("#no").parent().nextUntil("dt").toggle();
   $("input[name='create-account']").change(function() {
-    $(this).parent().siblings("dt").nextUntil("dt").hide();
-    $(this).parent().nextUntil("dt").show();
+    $(this).parent().siblings("dt").nextUntil("dt").hide(400);
+    $(this).parent().nextUntil("dt").show(400);
   });
   $(".show-hidden").click(function () {
     $("#all").hide();

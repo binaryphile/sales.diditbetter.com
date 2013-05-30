@@ -115,6 +115,12 @@ input#num-emp {
 .tel-tabular dl ol, .tel-tabular .tel-fieldset ol {
   list-style: none;
 }
+dl dt {
+  margin-bottom: 0.75em;
+}
+input[type="radio"] {
+  margin-top: 0;
+}
 .slug {
   width: 13em;
 }
@@ -194,6 +200,7 @@ textarea {
   -webkit-border-radius: 5px;
   -moz-border-radius  : 5px;
   width:968px;
+  height: 647px;
   clear:both;
 }
 
