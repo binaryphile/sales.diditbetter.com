@@ -5,10 +5,10 @@ author :
 
 navigation :
   - index.md
-  - how-it-works.md
-  - referral-signup.md
-  - whats-next.md
-  - collateral.md
+  - referral-program-details.md
+  - referral-program-signup-form.md
+  - referral-program-post-signup-steps.md
+  - referral-program-collateral.md
 
 jqueryui:
   theme: redmond

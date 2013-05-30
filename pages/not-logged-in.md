@@ -1,5 +1,6 @@
 ---
 title: Not Logged In
+nav: Not Logged In
 description: Redirect if you are not logged into the DidItBetter.com store
 redirect:
   url: //store.diditbetter.com/login

@@ -1,4 +1,4 @@
-### DidItBetter.com Authorized Reseller Program
+### DidItBetter Reseller Program
 
 Our Authorized Reseller Program is for people who wish to purchase our
 products at a discount and resell them to their customers directly,

@@ -1,11 +1,11 @@
-### DidItBetter.com Affiliate Referral Agent Program
+### DidItBetter Referral Program
 
 Our Affiliate Referral Agent program is for people who refer customers
 to our web store.  For every user that makes a purchase, you receive 5%
 of the pre-tax total price.  We handle the customer relationship and
 support thereafter.
 
-As a DidItBetter.com Affiliate Referral Agent, you're eligible for
+As a DidItBetter Referral Agent, you're eligible for
 these benefits:
 
 * **Named account manager** - Every partner has an inside advocate you
@@ -60,10 +60,10 @@ these benefits:
   desire in your customer base. Our materials are brandable and
   personalizable.
 
-[Learn More](/how-it-works/){: .art-button-old}
+[Learn More](/referral-program-details/){: .art-button-old}
 {: .how-it-works style="float: left;"}
 
-[Sign up now!](/referral-signup/){: .art-button-old}
+[Sign up now!](/referral-program-signup-form/){: .art-button-old}
 {: .signup style="float: left;"}
 
 Sign up today and get started earning!

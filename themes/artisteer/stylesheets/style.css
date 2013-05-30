@@ -116,7 +116,7 @@ ul.art-vmenu a
 {
    color: #4088BF;
    margin: 0 0 10px;
-   font-size: 31px;
+   font-size: 24px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
@@ -126,7 +126,7 @@ ul.art-vmenu a
 .art-blockcontent h1
 {
    margin: 0 0 10px;
-   font-size: 31px;
+   font-size: 24px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
@@ -135,7 +135,7 @@ ul.art-vmenu a
 
 .art-postcontent h1 a, .art-postcontent h1 a:link, .art-postcontent h1 a:hover, .art-postcontent h1 a:visited, .art-blockcontent h1 a, .art-blockcontent h1 a:link, .art-blockcontent h1 a:hover, .art-blockcontent h1 a:visited 
 {
-   font-size: 31px;
+   font-size: 24px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;

@@ -1,13 +1,15 @@
 ---
 wide: true
-title: Referral Signup
-description: The Signup process for the DidItBetter.com Software Referral Program starts here
+title: Referral Program Signup Form
+nav: Referral Signup
+description: The signup process for the DidItBetter Referral Program starts here
 scripts:
   - jquery.smartWizard-2.0.js
   - wizard.behavior.js
 ---
 
-### Referral Partner Program Signup
+DidItBetter Referral Program Signup Form
+========================================
 
 The following steps will walk you through the signup process.  At times
 you will be asked to open a new window by clicking a button.  Whenever

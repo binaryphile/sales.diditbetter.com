@@ -1,7 +1,11 @@
 ---
-title: How It Works
-description: A description of the workings of the DidItBetter.com Affiliate Referral Agent Program
+title: Referral Program Details
+nav: How It Works
+description: A description of the workings of the DidItBetter Referral Program
 ---
+
+How the Referral Program Works
+==============================
 
 **DidItBetter Software solutions complement and add functionality to
 your Microsoft Exchange, Microsoft Outlook, Microsoft Office and mobile
@@ -41,7 +45,7 @@ have clients who would benefit from:
 * CRM: Simple Contact and Lead Management and Marketing Solutions for
   Microsoft Office users.
 
-##### Affiliate Referral Agent Benefits
+### Affiliate Referral Agent Benefits
 
 * Active authorized Affiliate Referral Agents are eligible for leads in
   their area.
@@ -197,12 +201,12 @@ check. 
 {: .signup}
 
 [our website]: http://www.diditbetter.com/ 
-[signup process]: /referral-signup/
+[signup process]: /referral-program-signup-form/
 [Download]: {{urls.media}}/download-button-2.png
 [product descriptions]: http://www.diditbetter.com/products.aspx
 [Cart Referral]: {{urls.media}}/cart-referral.png
 [Email]: {{urls.media}}/email.png
 [Your account]: {{urls.media}}/your-account.png
-[Sign up now!]: /referral-signup/
+[Sign up now!]: /referral-program-signup-form/
 [Go to store]: http://store.diditbetter.com/
 
