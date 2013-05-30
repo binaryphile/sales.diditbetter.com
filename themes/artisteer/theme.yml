@@ -18,8 +18,6 @@
       script.responsive.js,
       script.js,
       button.js,
-      cufon-yui.js,
-      ChunkFive_400.font.js,
     ]
   },
   

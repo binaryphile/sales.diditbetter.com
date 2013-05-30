@@ -200,7 +200,7 @@ textarea {
   -webkit-border-radius: 5px;
   -moz-border-radius  : 5px;
   width:968px;
-  height: 647px;
+  min-height: 647px;
   clear:both;
 }
 
