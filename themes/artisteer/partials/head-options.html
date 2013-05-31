@@ -1,0 +1,44 @@
+{{#page.description}}
+<meta name="description" content="{{.}}" />
+{{/page.description}}
+{{#page.redirect}}
+<meta http-equiv="refresh" content="{{timeout}};URL={{url}}">
+{{/page.redirect}}
+{{#data.canonical}}
+<link rel="canonical" href="{{data.production_url}}{{page.url}}" />
+{{/data.canonical}}
+{{#data.rss}}
+<link rel="alternate" type="application/rss+xml" title="{{title}}" href="{{href}}" />
+{{/data.rss}}
+{{#page.scripts}}
+<script src="{{urls.javascripts}}/{{.}}"></script>
+{{/page.scripts}}
+{{#data.jqueryui}}
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+<script>
+  $(document).ready(function () {
+    {{#page.tabs}}
+    $("#tabs").tabs();
+    {{/page.tabs}}
+    {{#page.tooltips}}
+    $(document).tooltip();
+    {{/page.tooltips}}
+  });
+</script>
+{{/data.jqueryui}}
+{{^page.no-track}}
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-194272-3']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+{{/page.no-track}}
+
