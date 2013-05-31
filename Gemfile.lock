@@ -1,94 +1,93 @@
 GIT
   remote: git://github.com/guard/guard-livereload.git
-  revision: c34414d8839b66201be46a84c93e54fa8816de02
+  revision: 4aa9534e6a205623416d40b9009b198e40f1e387
   specs:
-    guard-livereload (1.1.3)
-      em-websocket (>= 0.2.0)
-      guard (>= 1.5.0)
-      multi_json (~> 1.0)
+    guard-livereload (1.4.0)
+      em-websocket (>= 0.5.0)
+      guard (>= 1.8.0)
+      multi_json (~> 1.7)
 
 GIT
   remote: git://github.com/guard/guard.git
-  revision: 0aa366f368ed938b51cf08b8040486bbb1aec08d
+  revision: 6363368dda04a5769499383e25369b67a4148646
   specs:
-    guard (1.6.2)
-      listen (>= 0.6.0)
+    guard (1.8.0)
+      formatador (>= 0.2.4)
+      listen (>= 1.0.0)
       lumberjack (>= 1.0.2)
       pry (>= 0.9.10)
-      terminal-table (>= 1.4.3)
       thor (>= 0.14.6)
 
 GIT
   remote: git://github.com/johnbintz/rack-livereload.git
-  revision: 20f03cbe7c1d2e333e03f61f9a3b9e0fd96f68b8
+  revision: 81fb8384cbde4bbdbcfe8b44225d0ab58ebd79c2
   specs:
-    rack-livereload (0.3.12)
+    rack-livereload (0.3.15)
       rack
 
 GIT
   remote: git://github.com/nex3/rb-inotify.git
-  revision: 6a8f19cf31cb84783ddfb99aebe4cb16f34e5219
+  revision: f74b12f7e2433b763dfd7967fa4869a95f8ab1eb
   specs:
     rb-inotify (0.9.0)
       ffi (>= 0.5.0)
-
-PATH
-  remote: ../../../remote/ruhoh.rb
-  specs:
-    ruhoh (2.0.alpha.3)
-      directory_watcher (~> 1.4.1)
-      mustache (~> 0.99)
-      nokogiri (~> 1.5)
-      rack (~> 1.4)
-      redcarpet (~> 2.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.0.9)
+    columnize (0.3.6)
+    debugger (1.5.0)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.2.0)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.2.0)
     directory_watcher (1.4.1)
-    em-websocket (0.4.0)
+    em-websocket (0.5.0)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.5.3)
-    eventmachine (1.0.0)
-    eventmachine (1.0.0-x86-mingw32)
-    ffi (1.4.0)
+    eventmachine (1.0.3)
+    ffi (1.8.1)
+    formatador (0.2.4)
     http_parser.rb (0.5.3)
-    http_parser.rb (0.5.3-x86-mingw32)
     kramdown (0.14.2)
-    listen (0.7.3)
-    lumberjack (1.0.2)
+    listen (1.1.4)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+      rb-kqueue (>= 0.2)
+    lumberjack (1.0.3)
     method_source (0.8.1)
-    multi_json (1.6.1)
+    multi_json (1.7.4)
     mustache (0.99.4)
     nokogiri (1.5.9)
-    nokogiri (1.5.9-x86-mingw32)
-    pry (0.9.12)
+    pry (0.9.12.2)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
       slop (~> 3.4)
-    pry (0.9.12-x86-mingw32)
-      coderay (~> 1.0.5)
-      method_source (~> 0.8)
-      slop (~> 3.4)
-      win32console (~> 1.3)
     rack (1.5.2)
+    rb-fsevent (0.9.3)
+    rb-kqueue (0.2.0)
+      ffi (>= 0.5.0)
     redcarpet (2.3.0)
-    slop (3.4.3)
-    terminal-table (1.4.5)
-    thor (0.17.0)
-    wdm (0.1.0)
-    win32console (1.3.2-x86-mingw32)
+    ruhoh (2.1)
+      directory_watcher (~> 1.4.0)
+      mustache (~> 0.99)
+      nokogiri (~> 1.5)
+      rack (~> 1.4)
+      redcarpet (~> 2.1)
+    slop (3.4.5)
+    thor (0.18.1)
 
 PLATFORMS
   ruby
-  x86-mingw32
 
 DEPENDENCIES
+  debugger
   guard!
   guard-livereload!
   kramdown (~> 0.14)
   rack-livereload!
   rb-inotify!
-  ruhoh!
+  ruhoh (~> 2.1)
   wdm
