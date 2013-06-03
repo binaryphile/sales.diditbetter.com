@@ -5,7 +5,7 @@
    background: #FFFFFF;
    margin:0 auto;
    font-size: 14px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    text-align: justify;
@@ -20,7 +20,7 @@
 table, ul.art-hmenu
 {
    font-size: 14px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    text-align: justify;
@@ -85,7 +85,7 @@ ul.art-vmenu a
 .art-postheader, .art-postheader a, .art-postheader a:link, .art-postheader a:visited, .art-postheader a:hover
 {
    font-size: 31px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -93,21 +93,21 @@ ul.art-vmenu a
 
 .art-postcontent a, .art-postcontent a:link
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
    color: #2691D9;
 }
 
 .art-postcontent a:visited, .art-postcontent a.visited
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
    color: #7EA3B9;
 }
 
 .art-postcontent  a:hover, .art-postcontent a.hover
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: underline;
    color: #2691D9;
 }
@@ -117,7 +117,7 @@ ul.art-vmenu a
    color: #4088BF;
    margin: 0 0 10px;
    font-size: 24px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -127,7 +127,7 @@ ul.art-vmenu a
 {
    margin: 0 0 10px;
    font-size: 24px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -136,7 +136,7 @@ ul.art-vmenu a
 .art-postcontent h1 a, .art-postcontent h1 a:link, .art-postcontent h1 a:hover, .art-postcontent h1 a:visited, .art-blockcontent h1 a, .art-blockcontent h1 a:link, .art-blockcontent h1 a:hover, .art-blockcontent h1 a:visited 
 {
    font-size: 24px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -147,7 +147,7 @@ ul.art-vmenu a
    color: #4088BF;
    margin: 0 0 10px;
    font-size: 24px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -157,7 +157,7 @@ ul.art-vmenu a
 {
    margin: 0 0 10px;
    font-size: 24px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -166,7 +166,7 @@ ul.art-vmenu a
 .art-postcontent h2 a, .art-postcontent h2 a:link, .art-postcontent h2 a:hover, .art-postcontent h2 a:visited, .art-blockcontent h2 a, .art-blockcontent h2 a:link, .art-blockcontent h2 a:hover, .art-blockcontent h2 a:visited 
 {
    font-size: 24px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -177,7 +177,7 @@ ul.art-vmenu a
    color: #5988A6;
    margin: 0 0 10px;
    font-size: 20px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -187,7 +187,7 @@ ul.art-vmenu a
 {
    margin: 0 0 10px;
    font-size: 20px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -196,7 +196,7 @@ ul.art-vmenu a
 .art-postcontent h3 a, .art-postcontent h3 a:link, .art-postcontent h3 a:hover, .art-postcontent h3 a:visited, .art-blockcontent h3 a, .art-blockcontent h3 a:link, .art-blockcontent h3 a:hover, .art-blockcontent h3 a:visited 
 {
    font-size: 20px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -207,7 +207,7 @@ ul.art-vmenu a
    color: #212B31;
    margin: 0 0 10px;
    font-size: 18px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -217,7 +217,7 @@ ul.art-vmenu a
 {
    margin: 0 0 10px;
    font-size: 18px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -226,7 +226,7 @@ ul.art-vmenu a
 .art-postcontent h4 a, .art-postcontent h4 a:link, .art-postcontent h4 a:hover, .art-postcontent h4 a:visited, .art-blockcontent h4 a, .art-blockcontent h4 a:link, .art-blockcontent h4 a:hover, .art-blockcontent h4 a:visited 
 {
    font-size: 18px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -237,7 +237,7 @@ ul.art-vmenu a
    color: #FF6600;
    margin: 0 0 10px;
    font-size: 15px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -247,7 +247,7 @@ ul.art-vmenu a
 {
    margin: 0 0 10px;
    font-size: 15px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -256,7 +256,7 @@ ul.art-vmenu a
 .art-postcontent h5 a, .art-postcontent h5 a:link, .art-postcontent h5 a:hover, .art-postcontent h5 a:visited, .art-blockcontent h5 a, .art-blockcontent h5 a:link, .art-blockcontent h5 a:hover, .art-blockcontent h5 a:visited 
 {
    font-size: 15px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -267,7 +267,7 @@ ul.art-vmenu a
    color: #4E6673;
    margin: 0 0 10px;
    font-size: 15px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -277,7 +277,7 @@ ul.art-vmenu a
 {
    margin: 0 0 10px;
    font-size: 15px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -286,7 +286,7 @@ ul.art-vmenu a
 .art-postcontent h6 a, .art-postcontent h6 a:link, .art-postcontent h6 a:hover, .art-postcontent h6 a:visited, .art-blockcontent h6 a, .art-blockcontent h6 a:link, .art-blockcontent h6 a:hover, .art-blockcontent h6 a:visited 
 {
    font-size: 15px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -585,7 +585,7 @@ ul.art-hmenu>li>a
 .art-hmenu a:hover
 {
    font-size: 13px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
 }
@@ -659,7 +659,7 @@ ul.art-hmenu li li ul>li:last-child
    line-height: 26px;
    color: #214763;
    font-size: 13px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
@@ -688,7 +688,7 @@ ul.art-hmenu li li ul>li:last-child
    line-height: 26px;
    color: #214763;
    font-size: 13px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    text-decoration: none;
@@ -891,7 +891,7 @@ div.art-block img
 {
    color: #000000;
    font-size: 13px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    margin-left: 10px;
@@ -916,7 +916,7 @@ div.art-block img
    margin:0 auto;
    color: #1B2327;
    font-size: 13px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
 }
@@ -929,7 +929,7 @@ div.art-block img
 {
    color: #1B2327;
    font-size: 13px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
 }
@@ -937,27 +937,27 @@ div.art-block img
 .art-blockcontent a, .art-blockcontent a:link
 {
    color: #2B5C82;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-blockcontent a:visited, .art-blockcontent a.visited
 {
    color: #7390A0;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-blockcontent a:hover, .art-blockcontent a.hover
 {
    color: #3878A8;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: underline;
 }
 .art-block li
 {
    font-size: 13px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
    line-height: 125%;
    color: #27333A;
@@ -981,7 +981,7 @@ button.art-button
 {
    text-decoration: none;
    font-size: 13px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    position:relative;
@@ -1016,7 +1016,7 @@ input, select, textarea, a.art-search-button span
 {
    vertical-align: middle;
    font-size: 13px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
 }
@@ -1085,7 +1085,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
    padding: 8px 0;
    color: #324049 !important;
    font-size: 14px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    text-shadow: none;
@@ -1099,7 +1099,7 @@ input.art-error, textarea.art-error
 input.art-error, textarea.art-error {
    color: #324049 !important;
    font-size: 14px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
 }
@@ -1116,7 +1116,7 @@ form.art-search input[type="text"]
    box-sizing: border-box;
    color: #324049 !important;
    font-size: 14px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
 }
@@ -1164,7 +1164,7 @@ form.art-search input[type="submit"], input.art-search-button, a.art-search-butt
    padding:0 6px;
    color: #3D5D71 !important;
    font-size: 14px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    cursor: pointer;
@@ -1186,7 +1186,7 @@ a.art-search-button:hover, a.art-search-button.hover
 {
    text-decoration: none;
    font-size: 14px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
 }
@@ -1206,7 +1206,7 @@ label.art-checkbox
 {
    cursor: pointer;
    font-size: 14px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    line-height: 16px;
@@ -1260,7 +1260,7 @@ label.art-radiobutton
 {
    cursor: pointer;
    font-size: 14px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
    line-height: 12px;
@@ -1343,7 +1343,7 @@ label.art-radiobutton.hovered:before
 {
    padding:10px 0;
    color: #2D4453;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-comment
@@ -1359,7 +1359,7 @@ label.art-radiobutton.hovered:before
 .art-comment-header
 {
    color: #142C3D;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    line-height: 100%;
 }
 
@@ -1370,25 +1370,25 @@ label.art-radiobutton.hovered:before
 .art-comment-header a:hover,
 .art-comment-header a.hovered
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    line-height: 100%;
 }
 
 .art-comment-header a, .art-comment-header a:link
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    color: #4B8FC3;
 }
 
 .art-comment-header a:visited, .art-comment-header a.visited
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    color: #4B8FC3;
 }
 
 .art-comment-header a:hover,  .art-comment-header a.hovered
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    color: #4B8FC3;
 }
 
@@ -1399,24 +1399,24 @@ label.art-radiobutton.hovered:before
 .art-comment-content a:hover,
 .art-comment-content a.hovered
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-comment-content a, .art-comment-content a:link
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    color: #556E7C;
 }
 
 .art-comment-content a:visited, .art-comment-content a.visited
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    color: #3B5A6D;
 }
 
 .art-comment-content a:hover,  .art-comment-content a.hovered
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    color: #556E7C;
 }
 
@@ -1471,7 +1471,7 @@ label.art-radiobutton.hovered:before
 .art-pager a:link,
 .art-pager a:visited
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
    color: #122636
 ;
@@ -1695,7 +1695,7 @@ pre
    color: #204460;
    margin: 0 0 10px;
    font-size: 24px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -1709,7 +1709,7 @@ pre
 .art-postheader a.hovered
 {
    font-size: 24px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
    text-align: left;
@@ -1717,7 +1717,7 @@ pre
 
 .art-postheader a, .art-postheader a:link
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
    text-align: left;
    color: #397AAC;
@@ -1725,7 +1725,7 @@ pre
 
 .art-postheader a:visited, .art-postheader a.visited
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
    text-align: left;
    color: #5D7989;
@@ -1733,7 +1733,7 @@ pre
 
 .art-postheader a:hover,  .art-postheader a.hovered
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
    text-align: left;
    color: #306791;
@@ -1746,7 +1746,7 @@ pre
 .art-postheadericons a:hover
 {
    font-size: 12px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    color: #445864;
 }
 
@@ -1757,21 +1757,21 @@ pre
 
 .art-postheadericons a, .art-postheadericons a:link
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: underline;
    color: #2D5F86;
 }
 
 .art-postheadericons a:visited, .art-postheadericons a.visited
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: underline;
    color: #2D5F86;
 }
 
 .art-postheadericons a:hover, .art-postheadericons a.hover
 {
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
    color: #2D5F86;
 }
@@ -1847,7 +1847,7 @@ pre
 .art-postcontent li, .art-post li, .art-textblock li
 {
    font-size: 13px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    line-height: 125%;
    color: #111518;
    margin: 0 10px 10px 50px;
@@ -1903,7 +1903,7 @@ blockquote
    padding:6px 6px 6px 43px;
    margin:10px 10px 10px 50px;
    color: #0B1014;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-align: left;
    /* makes block not to align behind the image if they are in the same line */
   overflow: auto;
@@ -1915,7 +1915,7 @@ blockquote a:visited, .art-postcontent blockquote a:visited, .art-blockcontent b
 blockquote a:hover, .art-postcontent blockquote a:hover, .art-blockcontent blockquote a:hover, .art-footer blockquote a:hover
 {
    color: #0B1014;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-align: left;
 }
 
@@ -1936,7 +1936,7 @@ blockquote p,
    position: relative;
    color: #1A364D;
    font-size: 15px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-align: left;
    padding: 0;
 }
@@ -1951,7 +1951,7 @@ blockquote p,
 {
    color: #1A364D;
    font-size: 15px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
 }
 
 .art-footer p 
@@ -1964,58 +1964,58 @@ blockquote p,
 .art-footer a:link
 {
    color: #265273;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-footer a:visited
 {
    color: #265273;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-footer a:hover
 {
    color: #306791;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-footer h1
 {
    color: #4F92C4;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
 }
 
 .art-footer h2
 {
    color: #7DAED4;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
 }
 
 .art-footer h3
 {
    color: #89A1AE;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
 }
 
 .art-footer h4
 {
    color: #AFC6D4;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
 }
 
 .art-footer h5
 {
    color: #AFC6D4;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
 }
 
 .art-footer h6
 {
    color: #AFC6D4;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Arial Black', Arial, Helvetica, Sans-Serif;
 }
 
 .art-footer img
@@ -2084,7 +2084,7 @@ blockquote p,
 .art-footer li
 {
    font-size: 12px;
-   font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: 'Trebuchet MS', Arial, Helvetica, Sans-Serif;
    color: #29363D;
 }
 

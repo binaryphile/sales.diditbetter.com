@@ -68,7 +68,7 @@ posts:
 # It's done this way because some users just want to write a freaking blog post
 # and have no need for a billion gems -- hopefully you agree with me =)
 asset_pipeline:
-  enable: false
+  enable: true
 
 widgets :
 
@@ -101,5 +101,3 @@ widgets :
   google_prettify :
     linenums : true
 
-exclude:
-  - ^contrib

@@ -13,9 +13,11 @@ navigation :
 jqueryui:
   theme: redmond
 
-no-chat: false
+no-chat: true
 
 canonical: true
 
 production_url: http://sales.diditbetter.com
+
+tracking-id: UA-194272-3
 

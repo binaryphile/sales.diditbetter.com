@@ -3,7 +3,6 @@
 <head>
 {{>head}}
 {{>head-options}}
-{{{widgets.analytics}}}
 </head>
 <body{{#page.wide}} class="wide"{{/page.wide}}>
 <div id="art-main">
@@ -22,24 +21,6 @@
   </div>
   {{>footer}}
 </div>
-{{^data.no-chat}}
-<!-- LiveZilla Chat Button Link Code (ALWAYS PLACE IN BODY ELEMENT) -->
-<div style="display:none;">
-  <a href="javascript:void(window.open('http://chat.diditbetter.com/chat.php?intgroup=U2FsZXNBZG1pbg==&amp;hg=Pw__','','width=590,height=610,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))"><img id="chat_button_image" src="http://chat.diditbetter.com/image.php?id=04&amp;type=overlay&amp;hg=Pw__&amp;intgroup=U2FsZXNBZG1pbg==" width="26" height="100" border="0" alt="LiveZilla Live Help" /></a>
-</div>
-<!-- http://www.LiveZilla.net Chat Button Link Code --><!-- LiveZilla Tracking Code (ALWAYS PLACE IN BODY ELEMENT) -->
-<div id="livezilla_tracking" style="display:none"></div>
-<script type="text/javascript">
-  var script = document.createElement("script");
-  script.type="text/javascript";
-  var src = "http://chat.diditbetter.com/server.php?request=track&output=jcrpt&fbpos=12&fbml=0&fbmt=0&fbmr=0&fbmb=0&fbw=26&fbh=100&nse="+Math.random();
-  $(document).ready(function(){setTimeout("script.src=src;document.getElementById('livezilla_tracking').appendChild(script)",1);});
-</script>
-<noscript>
-  <img src="http://chat.diditbetter.com/server.php?request=track&amp;output=nojcrpt&amp;fbpos=12&amp;fbml=0&amp;fbmt=0&amp;fbmr=0&amp;fbmb=0&amp;fbw=26&amp;fbh=100" width="0" height="0" style="visibility:hidden;" alt="" />
-</noscript>
-<!-- http://www.LiveZilla.net Tracking Code -->
-{{/data.no-chat}}
 </body>
 </html>
 

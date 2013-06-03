@@ -10,17 +10,4 @@
 {{#data.rss}}
 <link rel="alternate" type="application/rss+xml" title="{{title}}" href="{{href}}" />
 {{/data.rss}}
-{{#data.jqueryui}}
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
-<script>
-  $(document).ready(function () {
-    {{#page.tabs}}
-    $("#tabs").tabs();
-    {{/page.tabs}}
-    {{#page.tooltips}}
-    $(document).tooltip();
-    {{/page.tooltips}}
-  });
-</script>
-{{/data.jqueryui}}
 
