@@ -8,7 +8,6 @@ gem 'wdm', platforms: :mingw, require: false
 gem 'guard-livereload', github: 'guard/guard-livereload'
 gem 'rack-livereload', github: 'johnbintz/rack-livereload'
 gem 'json', '~> 1.7.7'
-gem 'uglifier', github: 'lautis/uglifier'
 
 # To enable asset packaging and processing via sprockets:
 #
